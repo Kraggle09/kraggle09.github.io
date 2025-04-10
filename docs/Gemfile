@@ -38,4 +38,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 #Themes
 
 # gem "just-the-docs"
-gem "cayman"
+gem "jekyll-theme-cayman"
