@@ -1,6 +1,3 @@
-Emulation
-=======
-
 ## What is emulation
 
 Emulation, at a high level, is recreating what a console does on PC. Most the time, this is to allow running console games on PC. I can use an **Emulator**, load a **ROM** onto it, and play it on my PC.
@@ -21,7 +18,7 @@ Dumping involves using the actual console to *dump* the contents of a game onto 
 If you don't own the console or the games, you can go to the internet. Now, I initially wasn't going to provide any links, but I realize a lot of you will probably end up downloading a virus, and I'd like to at least some-what prevent that. So I'll be providing one link: [https://r-roms.github.io/](https://r-roms.github.io/). This is the ultimate and best source of game roms, but do keep in mind that 1. This isn't super legal (not like cops are gonna come busting down your door), and it doesn't have roms for anything newer than the Xbox 360/Wii U. If a game you want isn't on here, I'd recommend just doing without unless you're experienced with tech, *especially* if you want one for newer games like the Switch.
 
 **What is the best place to draw the line for emulating?**  
-This is different for everybody, and I think it's really up to you. Some people only emulate old games (>2005), while others only like emulating game made by giant corporates. It's really up to you.
+This is different for everybody, and I think it's really up to you. Some people only emulate old games (>2005), while others only like emulating games made by giant corporates. It's really up to you.
 
 ## What emulator do I use?
 
