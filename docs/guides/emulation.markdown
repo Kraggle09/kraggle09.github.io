@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Emulation
+hidden: true
 ---
 
 ## What is emulation
