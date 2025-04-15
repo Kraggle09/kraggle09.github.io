@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+title: Clone Hero
 ---
 
 ## What is Clone Hero?

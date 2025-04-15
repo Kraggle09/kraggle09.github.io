@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Emulation
 ---
 
 ## What is emulation
-
 Emulation, at a high level, is recreating what a console does on PC. Most the time, this is to allow running console games on PC. I can use an **Emulator**, load a **ROM** onto it, and play it on my PC.
 
 ## Commonly asked questions about emulation
