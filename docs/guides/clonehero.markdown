@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Clone Hero
-hidden: true
 ---
 
 ## What is Clone Hero?

@@ -52,8 +52,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# nav:
-#   - title: Home
-#     url: /
-#   - title: About
-#     url: /about/
+minima:
+  header_pages:
+    - index.md
+    - about.md
