@@ -3,6 +3,8 @@ layout: default
 title: Clone Hero
 ---
 
+# Clone Hero
+
 ## What is Clone Hero?
 Clone Hero is, as the name may suggest, a clone of Guitar Hero for PC. If you don't know, Guitar Hero was a rhythm-based game where you'd play a guitar along-side the music.
 

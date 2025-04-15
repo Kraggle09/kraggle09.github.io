@@ -4,6 +4,7 @@
 
 layout: default
 title: Home
+menu: main
 ---
 ## This is the home for all things I do on the internet
 
