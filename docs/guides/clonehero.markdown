@@ -24,6 +24,9 @@ YARG (short for Yet Another Rhythem Game) has more features on paper, and is ope
 That said, it's still being updated frequently, while Clone Hero has all but ceased development (1.1 will come out soon, and they have a sequel planned, but it's a long ways off). If YARG gets more polished (and the latency is fixed), I may very well make the switch.
 
 ## How to get Clone Hero
+Downloading Clone Hero is easy. Just go to [https://clonehero.net/](https://clonehero.net/), click Download, and click the correct download button for your system!
+
+Installing is also easy, just follow the instructions on the installer.
 
 ## How to use Clone Hero
 
