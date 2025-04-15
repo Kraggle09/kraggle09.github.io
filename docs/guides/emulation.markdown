@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Emulation
 ---
 
 ## What is emulation
