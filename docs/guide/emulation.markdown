@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Emulation
+hidden: true
 ---
 
 # Emulation
