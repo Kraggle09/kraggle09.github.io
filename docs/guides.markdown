@@ -4,5 +4,5 @@ title: Guides
 ---
 
 # Technology
-[/guide/emulation/](Emulation)
-[/guide/clonehero/](Clone Hero)
+[Emluation](/guide/emulation/)
+[Clone Hero](/guide/clonehero/)
