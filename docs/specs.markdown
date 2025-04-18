@@ -1,3 +1,8 @@
+---
+title: Specs
+permalink: /specs/
+---
+
 ### Main PC  
 **CPU:** i7-9700  
 **GPU:** Red Devil RX 590  
