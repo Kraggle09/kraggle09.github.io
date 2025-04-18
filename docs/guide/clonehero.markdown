@@ -80,7 +80,7 @@ Now I hear you, "how do I get custom songs on Clone Hero"? Worry not my friend, 
 
 Chorus Enchore ([enchor.us](enchor.us)) is a site that hosts loads of custom charts that people have made. Just search for the song of your choice, and click download! Some songs will have duplicate charts, so compare them to see which one seems more complete. The little number next to the instrument icon represents Intensity, which means exactly what it seems like it would.
 
-Once you download a song, put it in your Clone Hero songs folder (usually in the documents folder). Reload the app, and your new songs should appear!
+Once you download a song, put it in your Clone Hero songs folder (usually in the documents folder). Go to settings > general, and reload the songs. After that, it should show your new songs in the song library.
 
 *Legal disclaimer: To be in the best position legally, only download charts for songs you already own. Or don't, I really don't care*
 
