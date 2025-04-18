@@ -39,3 +39,8 @@ Not at this time, no.
 Email me if you want me to appear on an episode, and I’ll decide depending on your content.  
 **Can you play Minecraft with me?**  
 Asides from the server, I typically don’t play with listeners.  
+
+
+
+## Credits
+The jacket on my skin is a more saturated version of [this base](https://www.planetminecraft.com/skin/green-jacket-5876331/) by LeafLady909.
