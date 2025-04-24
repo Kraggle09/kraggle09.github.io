@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Clone Hero
-hidden: true
 ---
 
 # Clone Hero
