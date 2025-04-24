@@ -20,7 +20,7 @@ title: Minecraft Text
 9. It's downloaded, and ready to be layered onto any image through an image editing program! (see figure 1.9)
 
 ### Option 1 Images:
-![](/docs/guide/images/minecraft-text/1-2.jpg)  
+![test](/docs/guide/images/minecraft-text/1-2.jpg)  
 ![](/docs/guide/images/minecraft-text/1-3.jpg)  
 ![](/docs/guide/images/minecraft-text/1-4.jpg)  
 ![](/docs/guide/images/minecraft-text/1-5.jpg)  
