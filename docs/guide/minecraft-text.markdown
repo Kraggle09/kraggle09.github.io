@@ -48,15 +48,27 @@ title: Minecraft Text
 
 ### Option 2 Images:
 ![](/images/minecraft-text/2-2.jpg)  
+  
 ![](/images/minecraft-text/2-3.jpg)  
+  
 ![](/images/minecraft-text/2-4.jpg)  
+  
 ![](/images/minecraft-text/2-5.jpg)  
+  
 ![](/images/minecraft-text/2-6.jpg)  
+  
 ![](/images/minecraft-text/2-7.jpg)  
+  
 ![](/images/minecraft-text/2-8.jpg)  
+  
 ![](/images/minecraft-text/2-9.jpg)  
+  
 ![](/images/minecraft-text/2-10.jpg)  
+  
 ![](/images/minecraft-text/2-11.jpg)  
+  
 ![](/images/minecraft-text/2-12.jpg)  
+  
 ![](/images/minecraft-text/2-13.jpg)  
+  
 ![](/images/minecraft-text/2-14.jpg)  
