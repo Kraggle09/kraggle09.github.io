@@ -20,14 +20,21 @@ title: Minecraft Text
 9. It's downloaded, and ready to be layered onto any image through an image editing program! (see figure 1.9)
 
 ### Option 1 Images:
-![](/images/minecraft-text/1-2.jpg)  
-![](/images/minecraft-text/1-3.jpg)  
-![](/images/minecraft-text/1-4.jpg)  
-![](/images/minecraft-text/1-5.jpg)  
-![](/images/minecraft-text/1-6.jpg)  
-![](/images/minecraft-text/1-7.jpg)  
-![](/images/minecraft-text/1-8.jpg)  
-![](/images/minecraft-text/1-9.jpg)
+![1-2](/images/minecraft-text/1-2.jpg)  
+  
+![1-3](/images/minecraft-text/1-3.jpg)  
+  
+![1-4](/images/minecraft-text/1-4.jpg)  
+  
+![1-5](/images/minecraft-text/1-5.jpg)  
+  
+![1-6](/images/minecraft-text/1-6.jpg)  
+  
+![1-7](/images/minecraft-text/1-7.jpg)  
+  
+![1-8](/images/minecraft-text/1-8.jpg)  
+  
+![1-9](/images/minecraft-text/1-9.jpg)
 
 
 ## Option 2: Minecraft Title Generator (Includes video by pack creator)
@@ -47,28 +54,28 @@ title: Minecraft Text
 14. Now you can layer it onto any other image with an image editing program! (see figure 2.13 and figure 2.14)
 
 ### Option 2 Images:
-![](/images/minecraft-text/2-2.jpg)  
+![2-2](/images/minecraft-text/2-2.jpg)  
   
-![](/images/minecraft-text/2-3.jpg)  
+![2-3](/images/minecraft-text/2-3.jpg)  
   
-![](/images/minecraft-text/2-4.jpg)  
+![2-4](/images/minecraft-text/2-4.jpg)  
   
-![](/images/minecraft-text/2-5.jpg)  
+![2-5](/images/minecraft-text/2-5.jpg)  
   
-![](/images/minecraft-text/2-6.jpg)  
+![2-6](/images/minecraft-text/2-6.jpg)  
   
-![](/images/minecraft-text/2-7.jpg)  
+![2-7](/images/minecraft-text/2-7.jpg)  
   
-![](/images/minecraft-text/2-8.jpg)  
+![2-8](/images/minecraft-text/2-8.jpg)  
   
-![](/images/minecraft-text/2-9.jpg)  
+![2-9](/images/minecraft-text/2-9.jpg)  
   
-![](/images/minecraft-text/2-10.jpg)  
+![2-10](/images/minecraft-text/2-10.jpg)  
   
-![](/images/minecraft-text/2-11.jpg)  
+![2-11](/images/minecraft-text/2-11.jpg)  
   
-![](/images/minecraft-text/2-12.jpg)  
+![2-12](/images/minecraft-text/2-12.jpg)  
   
-![](/images/minecraft-text/2-13.jpg)  
+![2-13](/images/minecraft-text/2-13.jpg)  
   
-![](/images/minecraft-text/2-14.jpg)  
+![2-14](/images/minecraft-text/2-14.jpg)  
