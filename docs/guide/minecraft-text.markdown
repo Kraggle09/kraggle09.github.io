@@ -34,7 +34,7 @@ title: Minecraft Text
   
 ![1-8](/images/minecraft-text/1-8.jpg)  
   
-![1-9](/images/minecraft-text/1-9.jpg)
+![1-9](/images/minecraft-text/1-9.png)
 
 
 ## Option 2: Minecraft Title Generator (Includes video by pack creator)
@@ -78,4 +78,4 @@ title: Minecraft Text
   
 ![2-13](/images/minecraft-text/2-13.jpg)  
   
-![2-14](/images/minecraft-text/2-14.jpg)  
+![2-14](/images/minecraft-text/2-14.png)  
