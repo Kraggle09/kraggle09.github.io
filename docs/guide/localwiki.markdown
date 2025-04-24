@@ -1,3 +1,7 @@
+---
+layout: default
+title: Locally Hosted Wiki
+---
 *This is a guide I wrote a few months ago, and I decided to post it here because why not.*
 
 This guide will walk you through the process of creating a locally hosted wiki, using MediaWiki.
