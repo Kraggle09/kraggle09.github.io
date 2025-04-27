@@ -16,6 +16,7 @@ Yes, but that's stuck on Java 8. If you want/need a newer version of Java, you'l
 First, you'll want to go to [jdk.java.net](https://jdk.java.net). Click on the latest "Ready for use" JDK option. For me, that's JDK 24. Click on the windows zip option. 
 
 ![1](/images/java/1.png)  
+
 ![2](/images/java/2.png)
 
 After it downloads, extract the files into some directory. For me, I'll put them in a Java folder in my root drive. Your path should look something like this:
@@ -31,11 +32,13 @@ Open start, and search "Environment variables". Choose the "Edit the system envi
 Click on Environment variables. In the bottom section, select Path, and click edit.
 
 ![5](/images/java/5.png)  
+
 ![6](/images/java/6.png)
 
 Copy the address for the bin folder in your java folder (for me that's C:\Java\jdk-24.0.1\bin), and click new. Paste in the path.
 
 ![7](/images/java/7.png)  
+
 ![8](/images/java/8.png)
 
 Click Ok to close the menu.
@@ -43,6 +46,7 @@ Click Ok to close the menu.
 Now, add a new variable to the system variables. The name should be `JAVA_HOME`. The value should be your java folder (for me that's C:\Java\jdk-24.0.1). 
 
 ![10](/images/java/10.png)  
+
 ![11](/images/java/11.png)
 
 Click ok 3 times to close the menus.
@@ -60,6 +64,7 @@ You'll need a .jar file for this, so if you don't have one, use [this link](http
 Double click on the file, and in the list of options, choose Choose an app on your PC. Choose the javaw.exe file in the java bin folder, and click Use Always (or check the box on Windows 10). 
 
 ![12](/images/java/12.png)  
+
 ![13](/images/java/13.png)
 
 There's one more step, however. Click start, and search reg. Open registry editor.
