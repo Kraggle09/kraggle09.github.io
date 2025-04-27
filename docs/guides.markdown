@@ -8,7 +8,7 @@ permalink: /guides/
 [Emulation](/guide/emulation.html)  
 [Clone Hero](/guide/clonehero.html)  
 [Locally Hosted Wiki](/guide/localwiki.html)
-[Install Java](/guide/java.html)
+Install Java (coming soon)
 
 ## Minecraft
 [Minecraft Text](/guide/minecraft-text.html)
