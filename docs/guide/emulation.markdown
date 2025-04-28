@@ -47,6 +47,6 @@ As you can see, I mostly emulate Nintendo consoles. I have a real Xbox, Xbox 360
 
 ## Terminology
 
-**Emulator:** A program used to emulate a console, allowing playing games from it.
-**ROM:** Stands for Read Only Memory, dumps of real game cartridges and discs.
-**Firmware:** The software pre-installed on a console. Some emulators require it, some give you a better experience with it, and some get no benefit from installing it.
+**Emulator:** A program used to emulate a console, allowing playing games from it.  
+**ROM:** Stands for Read Only Memory, dumps of real game cartridges and discs.  
+**Firmware:** The software pre-installed on a console. Some emulators require it, some give you a better experience with it, and some get no benefit from installing it.  
