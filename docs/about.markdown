@@ -35,6 +35,8 @@ I plan to make a schedule for what times I’ll be on the server. For now, just 
 I only friend people I know decently well, because I don’t want my friends list to be cluttered up with every single listener.  
 **Do you have a YouTube channel?**  
 Not at this time, no.  
+**Can you make a YouTube channel?**  
+No. You can stop asking now.  
 **Can you come onto my podcast/channel?**  
 Email me if you want me to appear on an episode, and I’ll decide depending on your content.  
 **Can you play Minecraft with me?**  
