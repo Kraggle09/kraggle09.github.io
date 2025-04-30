@@ -6,7 +6,7 @@
   min-height: $spacing-unit * 1.865;
 
   @media (prefers-color-scheme: dark) {
-    border-bottom: 1px solid $grey-color-darkmode-light;
+    border-bottom: 1px solid $grey-color-darkmode-dark;
   }
 
   // Positioning context for the mobile navigation icon
