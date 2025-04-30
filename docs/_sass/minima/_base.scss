@@ -35,8 +35,6 @@ dl, dd, ol, ul, figure {
   }
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -146,6 +144,11 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: $grey-color-darkmode;
+    border-left: 4px solid $grey-color-darkmode-light
+  }
 }
 
 
@@ -159,6 +162,10 @@ code {
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid $grey-color-darkmode-light
+  }
 }
 
 code {
@@ -222,6 +229,10 @@ pre {
     fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
+
+    @media (prefers-color-scheme: dark) {
+      fill: #{$grey-color-darkmode}
+    }
 }
 
 .social-media-list {
@@ -242,6 +253,12 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+
+  @media (prefers-color-scheme: dark) {
+    color: lighten($text-color-dark, 18%);
+    border: 1px solid $grey-color-darkmode-light
+  }
+
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
