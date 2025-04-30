@@ -115,9 +115,21 @@ a {
     color: darken($brand-color, 15%);
   }
 
+  @media (prefers-color-scheme: dark) {
+    &:visited {
+      color: $brand-color
+    }
+  }
+
   &:hover {
     color: $text-color;
     text-decoration: underline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: $text-color-dark
+    }
   }
 
   .social-media-list &:hover {
