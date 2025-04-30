@@ -22,8 +22,8 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $grey-color-darkmode:       #b2b2b2 !default;
-$grey-color-darkmode-light: lighten($grey-color, 40%) !default;
-$grey-color-darkmode-dark:  darken($grey-color, 25%) !default;
+$grey-color-darkmode-light: lighten($grey-color-darkmode, 40%) !default;
+$grey-color-darkmode-dark:  darken($grey-color-darkmode, 25%) !default;
 
 $table-text-align: left !default;
 
