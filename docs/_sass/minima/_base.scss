@@ -222,12 +222,10 @@ pre {
 /**
  * Clearfix
  */
- %clearfix:after {
+%clearfix:after {
   content: "";
   display: table;
   clear: both;
-  border: none;         // Add this line
-  background: none;     // Add this line
 }
 
 
