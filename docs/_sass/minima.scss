@@ -15,19 +15,6 @@ $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
-
-// DARK MODE
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #181a1b !important;
-    color: #e8e6e3 !important;
-  }
-  blockquote, .svg-icon {
-    color: rgb(190, 190, 190);
-  }
-}
-// DARK MODE
-
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
