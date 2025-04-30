@@ -13,7 +13,8 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+
+ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -26,9 +27,13 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+
+  // Dark mode overrides
+  @media (prefers-color-scheme: dark) {
+    color: $text-color-dark; // define this variable in your variables file
+    background-color: $background-color-dark; // define this variable too
+  }
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -110,9 +115,21 @@ a {
     color: darken($brand-color, 15%);
   }
 
+  @media (prefers-color-scheme: dark) {
+    &:visited {
+      color: $brand-color
+    }
+  }
+
   &:hover {
     color: $text-color;
     text-decoration: underline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: $text-color-dark
+    }
   }
 
   .social-media-list &:hover {
@@ -139,6 +156,11 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: $grey-color-darkmode;
+    border-left: 4px solid $grey-color-darkmode-light
+  }
 }
 
 
@@ -152,6 +174,10 @@ code {
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid $grey-color-darkmode-light
+  }
 }
 
 code {
@@ -215,6 +241,10 @@ pre {
     fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
+
+    @media (prefers-color-scheme: dark) {
+      fill: #{$grey-color-darkmode}
+    }
 }
 
 .social-media-list {
@@ -235,6 +265,12 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+
+  @media (prefers-color-scheme: dark) {
+    color: lighten($text-color-dark, 18%);
+    border: 1px solid $grey-color-darkmode-light
+  }
+
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);

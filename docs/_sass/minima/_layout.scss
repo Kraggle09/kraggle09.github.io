@@ -6,6 +6,11 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
+  @media (prefers-color-scheme: dark) {
+    border-top: 5px solid $grey-color-darkmode-dark;
+    border-bottom: 1px solid $grey-color-darkmode-light;
+  }
+
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -21,6 +26,12 @@
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:visited {
+      color: $grey-color-darkmode-dark
+    }
   }
 }
 
@@ -43,6 +54,12 @@
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .page-link {
+      color: $text-color-dark
     }
   }
 
