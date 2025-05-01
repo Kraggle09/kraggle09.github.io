@@ -176,8 +176,8 @@ code {
   background-color: #eef;
 
   @media (prefers-color-scheme: dark) {
-    border: 1px solid $grey-color-darkmode-light;
-    background-color: rgb(103, 103, 109);
+    border: 1px solid $grey-color-darkmode-dark;
+    background-color: rgb(81, 81, 86);
   }
 }
 
