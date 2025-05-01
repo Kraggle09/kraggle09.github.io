@@ -156,6 +156,10 @@
   color: $grey-color;
   margin-left: -$spacing-unit * 0.5;
   @extend %clearfix;
+
+  @media (prefers-color-scheme: dark) {
+    color: $grey-color-darkmode
+  }
 }
 
 .footer-col {
