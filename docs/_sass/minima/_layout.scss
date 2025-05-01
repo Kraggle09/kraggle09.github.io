@@ -21,10 +21,15 @@
   margin-bottom: 0;
   float: left;
 
-  color: $grey-color-dark;
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
 
   @media (prefers-color-scheme: dark) {
-    color: $grey-color-darkmode
+    &:visited {
+      color: $text-color-dark
+    }
   }
 }
 
