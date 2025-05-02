@@ -12,3 +12,5 @@ Local (or not local) geek who has too many interests and at the same time not en
 This website is essentially the center of me on the internet. Kinda like linktree, if it wasn't just for links. 
 
 I've also written a few guides, which you can check out if you wish. My goal is for that page to have many guides that I write over the years.
+
+If you find any issues with this site, or ideas for improvements, feel free to open an issue [here](https://github.com/Kraggle09/kraggle09.github.io/issues).
