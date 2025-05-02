@@ -4,6 +4,8 @@ title: Guides
 permalink: /guides/
 ---
 
+### *Tutorials on how to do misc stuff*
+
 ## Technology
 [Emulation](/guide/emulation.html)  
 [Clone Hero](/guide/clonehero.html)  
