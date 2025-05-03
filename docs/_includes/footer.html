@@ -16,7 +16,12 @@
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>
+              <span id="email-obfuscated"></span>
+              <noscript>
+                <span>redstoneweeklypodcast [at] gmail [dot] com</span>
+              </noscript>
+            </li>
             {%- endif -%}
         </ul>
       </div>
@@ -33,3 +38,18 @@
   </div>
 
 </footer>
+
+<script>
+  // Only run if the element exists
+  (function() {
+    var user = "redstoneweeklypodcast";
+    var domain = "gmail.com";
+    var email = user + "@" + domain;
+    var link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.className = "u-email";
+    link.textContent = email;
+    var span = document.getElementById("email-obfuscated");
+    if (span) span.appendChild(link);
+  })();
+</script>
