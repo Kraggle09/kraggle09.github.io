@@ -16,10 +16,12 @@
             {%- endif -%}
             </li>
             {%- if site.email -%}
+            {% assign email_parts = site.email | split: "@" %}
             <li>
-              <span id="email-obfuscated"></span>
+              <span id="email-obfuscated" data-user="{{ email_parts[0] | escape }}"
+                data-domain="{{ email_parts[1] | escape }}"></span>
               <noscript>
-                <span>redstoneweeklypodcast [at] gmail [dot] com</span>
+                <span>{{ email_parts[0] }} [at] {{ email_parts[1] | replace: ".", " [dot] " }}</span>
               </noscript>
             </li>
             {%- endif -%}
@@ -40,16 +42,19 @@
 </footer>
 
 <script>
-  // Only run if the element exists
   (function() {
-    var user = "redstoneweeklypodcast";
-    var domain = "gmail.com";
-    var email = user + "@" + domain;
-    var link = document.createElement("a");
-    link.href = "mailto:" + email;
-    link.className = "u-email";
-    link.textContent = email;
     var span = document.getElementById("email-obfuscated");
-    if (span) span.appendChild(link);
+    if (span) {
+      var user = span.getAttribute("data-user");
+      var domain = span.getAttribute("data-domain");
+      if (user && domain) {
+        var email = user + "@" + domain;
+        var link = document.createElement("a");
+        link.href = "mailto:" + email;
+        link.className = "u-email";
+        link.textContent = email;
+        span.appendChild(link);
+      }
+    }
   })();
 </script>
