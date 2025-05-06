@@ -21,5 +21,13 @@ permalink: /specs/
 **Storage:** 512GB M.2  
 **OS:** Windows 11 Pro (24H2 Beta Channel)  
 
+### Server  
+**Model:** HP Elitedesk 800 G4  
+**CPU:** i5-8600T  
+**GPU:** Intergrated UHD Graphics 630  
+**RAM:** 16GB  
+**Storage** 128GB M.2  
+**OS:** Windows 10  
+
 ### Changelog  
 **5/1/2025** Upgraded from 128GB to 512GB (laptop)  
