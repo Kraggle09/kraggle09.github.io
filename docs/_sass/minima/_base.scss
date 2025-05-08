@@ -342,7 +342,7 @@ table {
   }
   
   [data-theme="dark"] & {
-    color: lighten($text-color-darkmode, 18%);
+    color: lighten($text-color-dark, 18%);
     border: 1px solid $grey-color-darkmode-light
   }
 
