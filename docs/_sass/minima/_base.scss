@@ -116,8 +116,9 @@ a {
   }
 
   @media (prefers-color-scheme: dark) {
+    color: $brand-color-dark;
     &:visited {
-      color: $brand-color
+      color: darken($brand-color-dark, 10%)
     }
   }
 
