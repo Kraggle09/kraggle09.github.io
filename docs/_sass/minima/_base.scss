@@ -319,7 +319,7 @@ pre {
 }
 
 #theme-toggle {
-  padding: 0.5em 1.2em;
+  padding: 0.5em 0.5em;
   border-radius: 6px;
   border: 1px solid $grey-color-light;
   background: $background-color;
@@ -337,13 +337,14 @@ pre {
   }
 
   @media (prefers-color-scheme: dark) {
-    border: 1px solid $grey-color-darkmode-light;
+    border: 1px solid $grey-color-darkmode-dark;
     background: $background-color-dark;
     color: $text-color-dark;
 
     &:hover, &:focus {
       background: $brand-color-dark;
       border-color: $brand-color-dark;
+      color: #fff;
     }
   }
 
@@ -355,17 +356,19 @@ pre {
     &:hover, &:focus {
       background: $brand-color;
       border-color: $brand-color;
+      color: #fff;
     }
   }
   
   [data-theme="dark"] & {
-    border: 1px solid $grey-color-darkmode-light;
+    border: 1px solid $grey-color-darkmode-dark;
     background: $background-color-dark;
     color: $text-color-dark;
 
     &:hover, &:focus {
       background: $brand-color-dark;
       border-color: $brand-color-dark;
+      color: #fff;
     }
   }
 }
