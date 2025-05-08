@@ -335,6 +335,39 @@ pre {
     border-color: $brand-color;
     outline: none;
   }
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid $grey-color-darkmode-light;
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+    &:hover, &:focus {
+      background: $brand-color-dark;
+      border-color: $brand-color-dark;
+    }
+  }
+
+  [data-theme="light"] & {
+    border: 1px solid $grey-color-light;
+    background: $background-color;
+    color: $text-color;
+
+    &:hover, &:focus {
+      background: $brand-color;
+      border-color: $brand-color;
+    }
+  }
+  
+  [data-theme="dark"] & {
+    border: 1px solid $grey-color-darkmode-light;
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+    &:hover, &:focus {
+      background: $brand-color-dark;
+      border-color: $brand-color-dark;
+    }
+  }
 }
 
 /**
