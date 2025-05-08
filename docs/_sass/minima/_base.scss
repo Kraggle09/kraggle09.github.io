@@ -33,6 +33,16 @@ dl, dd, ol, ul, figure {
     color: $text-color-dark; // define this variable in your variables file
     background-color: $background-color-dark; // define this variable too
   }
+
+  [data-theme="light"] & {
+    color: $text-color;
+    background-color: $background-color;
+  }
+  
+  [data-theme="dark"] & {
+    color: $text-color-dark;
+    background-color: $background-color-dark;
+  }
 }
 
 /**
@@ -122,12 +132,38 @@ a {
     }
   }
 
+  [data-theme="light"] & {
+    color: $brand-color;
+    &:visited {
+      color: darken($brand-color, 15%)
+    }
+  }
+  
+  [data-theme="dark"] & {
+    color: $brand-color-dark;
+    &:visited {
+      color: darken($brand-color-dark, 10%)
+    }
+  }
+
   &:hover {
     color: $text-color;
     text-decoration: underline;
   }
 
   @media (prefers-color-scheme: dark) {
+    &:hover {
+      color: $text-color-dark
+    }
+  }
+
+  [data-theme="light"] & {
+    &:hover {
+      color: $text-color
+    }
+  }
+  
+  [data-theme="dark"] & {
     &:hover {
       color: $text-color-dark
     }
@@ -162,6 +198,16 @@ blockquote {
     color: $grey-color-darkmode;
     border-left: 4px solid $grey-color-darkmode-light
   }
+
+  [data-theme="light"] & {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light
+  }
+  
+  [data-theme="dark"] & {
+    color: $grey-color-darkmode;
+    border-left: 4px solid $grey-color-darkmode-light
+  }
 }
 
 
@@ -179,6 +225,15 @@ code {
   @media (prefers-color-scheme: dark) {
     border: 1px solid $grey-color-darkmode-dark;
     background-color: rgb(81, 81, 86);
+  }
+
+  [data-theme="light"] & {
+    border: 1px solid $grey-color-light;
+    background-color: #eef
+  }
+  
+  [data-theme="dark"] & {
+    border: 1px solid $grey-color-darkmode-dark
   }
 }
 
@@ -247,6 +302,14 @@ pre {
     @media (prefers-color-scheme: dark) {
       fill: #{$grey-color-darkmode}
     }
+
+    [data-theme="light"] & {
+      fill: #{$grey-color}
+    }
+    
+    [data-theme="dark"] & {
+      fill: #{$grey-color-darkmode}
+    }
 }
 
 .social-media-list {
@@ -255,7 +318,60 @@ pre {
   }
 }
 
+#theme-toggle {
+  padding: 0.4em 0.5em;
+  border-radius: 6px;
+  border: 1px solid $grey-color-light;
+  background: $background-color;
+  color: $text-color;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
 
+  &:hover, &:focus {
+    background: $brand-color;
+    color: #fff;
+    border-color: $brand-color;
+    outline: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border: 1px solid $grey-color-darkmode-dark;
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+    &:hover, &:focus {
+      background: $brand-color-dark;
+      border-color: $brand-color-dark;
+      color: #fff;
+    }
+  }
+
+  [data-theme="light"] & {
+    border: 1px solid $grey-color-light;
+    background: $background-color;
+    color: $text-color;
+
+    &:hover, &:focus {
+      background: $brand-color;
+      border-color: $brand-color;
+      color: #fff;
+    }
+  }
+  
+  [data-theme="dark"] & {
+    border: 1px solid $grey-color-darkmode-dark;
+    background: $background-color-dark;
+    color: $text-color-dark;
+
+    &:hover, &:focus {
+      background: $brand-color-dark;
+      border-color: $brand-color-dark;
+      color: #fff;
+    }
+  }
+}
 
 /**
  * Tables
@@ -269,6 +385,16 @@ table {
   border: 1px solid $grey-color-light;
 
   @media (prefers-color-scheme: dark) {
+    color: lighten($text-color-dark, 18%);
+    border: 1px solid $grey-color-darkmode-light
+  }
+
+  [data-theme="light"] & {
+    color: lighten($text-color, 18%);
+    border: 1px solid $grey-color-light
+  }
+  
+  [data-theme="dark"] & {
     color: lighten($text-color-dark, 18%);
     border: 1px solid $grey-color-darkmode-light
   }
