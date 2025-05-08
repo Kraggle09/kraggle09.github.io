@@ -1,11 +1,19 @@
 /**
  * Site header
  */
-.site-header {
-  border-bottom: 1px solid $grey-color-light;
+ .site-header {
+  border-bottom: 1px solid #FF0000;
   min-height: $spacing-unit * 1.865;
 
   @media (prefers-color-scheme: dark) {
+    border-bottom: 1px solid $grey-color-darkmode-dark;
+  }
+
+  [data-theme="light"] & {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  [data-theme="dark"] & {
     border-bottom: 1px solid $grey-color-darkmode-dark;
   }
 
