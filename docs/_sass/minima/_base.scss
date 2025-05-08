@@ -332,7 +332,7 @@ table {
   border: 1px solid $grey-color-light;
 
   @media (prefers-color-scheme: dark) {
-    color: lighten($text-color-darkmode, 18%);
+    color: lighten($text-color-dark, 18%);
     border: 1px solid $grey-color-darkmode-light
   }
 
