@@ -318,7 +318,24 @@ pre {
   }
 }
 
+#theme-toggle {
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  border: 1px solid $grey-color-light;
+  background: $background-color;
+  color: $text-color;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
 
+  &:hover, &:focus {
+    background: $brand-color;
+    color: #fff;
+    border-color: $brand-color;
+    outline: none;
+  }
+}
 
 /**
  * Tables
