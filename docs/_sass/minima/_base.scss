@@ -424,7 +424,7 @@ table {
     border-bottom-color: darken($grey-color-light, 12%);
 
     @media(prefers-color-scheme: dark) {
-      background-color: lighten($grey-color-darkmode-light, 3%);
+      background-color: lighten($background-color-dark, 6%);
       border: 1px solid darken($grey-color-darkmode-light, 4%);
       border-bottom-color: darken($grey-color-darkmode-light, 12%);
     }
@@ -436,7 +436,7 @@ table {
     }
 
     [data-theme="dark"] & {
-      background-color: lighten($grey-color-darkmode-light, 3%);
+      background-color: lighten($background-color-dark, 6%);
       border: 1px solid darken($grey-color-darkmode-light, 4%);
       border-bottom-color: darken($grey-color-darkmode-light, 12%);
     }
