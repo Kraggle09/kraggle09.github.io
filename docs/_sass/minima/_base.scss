@@ -403,7 +403,7 @@ table {
       background-color: lighten($grey-color-light, 6%);
 
       @media (prefers-color-scheme: dark) {
-        background-color: $grey-color-darkmode-dark
+        background-color: lighten($background-color-dark, 6%)
       }
 
       [data-theme="light"] & {
@@ -411,7 +411,7 @@ table {
       }
 
       [data-theme="dark"] & {
-        background-color: $grey-color-darkmode-dark
+        background-color: lighten($background-color-dark, 6%)
       }
     }
   }
