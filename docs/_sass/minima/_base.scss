@@ -407,7 +407,7 @@ table {
       color: lighten($grey-color-darkmode-light, 6%)
     }
 
-    [data-theme="dark"] & {
+    [data-theme="light"] & {
       color: lighten($grey-color-light, 6%)
     }
 
@@ -422,8 +422,39 @@ table {
     background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
+
+    @media(prefers-color-scheme: dark) {
+      background-color: lighten($grey-color-darkmode-light, 3%);
+      border: 1px solid darken($grey-color-darkmode-light, 4%);
+      border-bottom-color: darken($grey-color-darkmode-light, 12%);
+    }
+
+    [data-theme="light"] & {
+      background-color: lighten($grey-color-light, 3%);
+      border: 1px solid darken($grey-color-light, 4%);
+      border-bottom-color: darken($grey-color-light, 12%);
+    }
+
+    [data-theme="dark"] & {
+      background-color: lighten($grey-color-darkmode-light, 3%);
+      border: 1px solid darken($grey-color-darkmode-light, 4%);
+      border-bottom-color: darken($grey-color-darkmode-light, 12%);
+    }
   }
+
   td {
     border: 1px solid $grey-color-light;
+
+    @media(prefers-color-scheme: dark) {
+      border: 1px solid $grey-color-darkmode-light;
+    }
+
+    [data-theme="light"] & {
+      border: 1px solid $grey-color-light;
+    }
+
+    [data-theme="dark"] & {
+      border: 1px solid $grey-color-darkmode-light;
+    }
   }
 }
