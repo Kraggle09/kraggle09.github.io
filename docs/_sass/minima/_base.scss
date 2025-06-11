@@ -401,18 +401,18 @@ table {
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
-    }
+      
+      @media (prefers-color-scheme: dark) {
+        background-color: lighten($grey-color-darkmode-light, 6%)
+      }
 
-    @media (prefers-color-scheme: dark) {
-      background-color: lighten($grey-color-darkmode-light, 6%)
-    }
+      [data-theme="light"] & {
+        background-color: lighten($grey-color-light, 6%)
+      }
 
-    [data-theme="light"] & {
-      background-color: lighten($grey-color-light, 6%)
-    }
-
-    [data-theme="dark"] & {
-      background-color: lighten($grey-color-darkmode-light, 6%)
+      [data-theme="dark"] & {
+        background-color: lighten($grey-color-darkmode-light, 6%)
+      }
     }
   }
   th, td {
