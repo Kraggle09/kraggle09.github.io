@@ -402,6 +402,18 @@ table {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
     }
+
+    @media (prefers-color-scheme: dark) {
+      color: lighten($grey-color-darkmode-light)
+    }
+
+    [data-theme="dark"] & {
+      color: lighten($grey-color-light)
+    }
+
+    [data-theme="dark"] & {
+      color: lighten($grey-color-darkmode-light)
+    }
   }
   th, td {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
