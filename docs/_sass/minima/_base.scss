@@ -404,15 +404,15 @@ table {
     }
 
     @media (prefers-color-scheme: dark) {
-      color: lighten($grey-color-darkmode-light, 6%)
+      background-color: lighten($grey-color-darkmode-light, 6%)
     }
 
     [data-theme="light"] & {
-      color: lighten($grey-color-light, 6%)
+      background-color: lighten($grey-color-light, 6%)
     }
 
     [data-theme="dark"] & {
-      color: lighten($grey-color-darkmode-light, 6%)
+      background-color: lighten($grey-color-darkmode-light, 6%)
     }
   }
   th, td {
