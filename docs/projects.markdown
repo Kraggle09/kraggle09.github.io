@@ -8,4 +8,5 @@ permalink: /projects/
 
 ## Minecraft
 [DnD Datapack](https://github.com/kraggle09/dnd-datapack)  
-[Random Skin Generator](https://github.com/kraggle09/random-skin-generator)
+[Dog Plus](https://github.com/kraggle09/dogplus)  
+[Random Skin Generator](https://github.com/kraggle09/random-skin-generator)  
