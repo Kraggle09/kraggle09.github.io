@@ -18,6 +18,11 @@ This is a small pack I made for the Summer 2025 Datapack Jam on Planet Minecraft
 [Github](https://github.com/kraggle09/dogplus)  
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/dogplus)  
 
+![Call the Animals](/assets/projects/call-the-animals.png)  
+This is a small pack that increases the tempt range for all animals to 2048, which is pretty cool to watch. It was also the first time I spent a decent amount of effort on the cover image, and I'm pretty happy with how it turned out. I created it on July 12th, 2025.  
+[Github](https://github.com/kraggle09/call-the-animals)  
+[Planet Minecraft](https://www.planetminecraft.com/data-pack/call-the-animals/)  
+
 ### Other
 #### Random Skin Generator
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
