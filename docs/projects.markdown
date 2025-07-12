@@ -6,8 +6,8 @@ permalink: /projects/
 
 ### Miscellaneous apps, scripts, mods, etc
 
-## Minecraft
-### Datapacks
+# Minecraft
+## Datapacks
 ![Minecraft DnD](/assets/projects/minecraft-dnd.png)  
 This was the first datapack that I've made, and definitely the one I'm nmost proud of. It currently adds all major/minor species from DnD to Minecraft, each one giving unique stats and abilities. I created it on December 8th, 2024.  
 [Github](https://github.com/kraggle09/dnd-datapack)  
@@ -23,7 +23,7 @@ This is a small pack that increases the tempt range for all animals to 2048, whi
 [Github](https://github.com/kraggle09/call-the-animals)  
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/call-the-animals/)  
 
-### Other
-#### Random Skin Generator
+## Other
+**Random Skin Generator**  
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
 [Github](https://github.com/kraggle09/random-skin-generator)  
