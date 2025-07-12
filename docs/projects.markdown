@@ -7,11 +7,6 @@ permalink: /projects/
 ### Miscellaneous apps, scripts, mods, etc
 
 ## Minecraft
-[DnD Datapack](https://github.com/kraggle09/dnd-datapack)  
-[Dog Plus](https://github.com/kraggle09/dogplus)  
-[Random Skin Generator](https://github.com/kraggle09/random-skin-generator)  
-
-## Minecraft
 ### Datapacks
 ![Minecraft DnD](/assets/projects/minecraft-dnd.png)  
 This was the first datapack that I've made, and definitely the one I'm nmost proud of. It currently adds all major/minor species from DnD to Minecraft, each one giving unique stats and abilities. I created it on December 8th, 2024.  
@@ -25,4 +20,5 @@ This is a small pack I made for the Summer 2025 Datapack Jam on Planet Minecraft
 
 ### Other
 #### Random Skin Generator
-This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.
+This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
+[Github](https://github.com/kraggle09/random-skin-generator)  
