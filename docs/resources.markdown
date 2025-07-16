@@ -36,7 +36,7 @@ Guides on developing addons and resource packs for Bedrock Minecraft
 
 # Coding
 **[freeCodeCamp](https://www.freecodecamp.org/)**  
-Offers lessons on programming for free. They have mini-guides that you can do in an afternoon, or full courses that you can do over several months. I've used them for learning several languages.  
+Offers lessons on programming in many languages. They have mini-guides that you can do in an afternoon, or full courses that you can do over several months. I've used them for learning several languages.  
 
 **[Hacking with Swift](https://www.hackingwithswift.com/)**  
 Guides on developing for Apple platforms.  
