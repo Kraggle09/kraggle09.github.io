@@ -43,3 +43,10 @@ Guides on developing for Apple platforms.
 
 **[Markdown Live Preview](https://markdownlivepreview.com/)**  
 A great tool to preview markdown code (I use the term code lightly).  
+
+**[Markdown Guide](https://www.markdownguide.org)**  
+Simple and very useful reference/guide for markdown syntax.  
+
+## Music
+**[Chordify](https://chordify.net)**  
+If you like and playing songs on musical instruments, chordify shows live chords for songs. They have a suprising amount of content. I've only found a few songs that aren't on it. It only allows 2 free songs a day, but that's nothing a cookie clear/incognito can't bypass.  
