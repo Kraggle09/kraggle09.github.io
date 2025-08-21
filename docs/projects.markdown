@@ -9,7 +9,7 @@ permalink: /projects/
 # Minecraft
 ## Datapacks
 ![Minecraft DnD](/assets/projects/minecraft-dnd.png)  
-This was the first datapack that I've made, and definitely the one I'm nmost proud of. It currently adds all major/minor species from DnD to Minecraft, each one giving unique stats and abilities. I created it on December 8th, 2024.  
+This was the first datapack that I've made, and definitely the one I'm most proud of. It currently adds all major/minor species from DnD to Minecraft, each one giving unique stats and abilities. I created it on December 8th, 2024.  
 [Github](https://github.com/kraggle09/dnd-datapack)  
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/minecraft-dnd-6481428/)  
 
