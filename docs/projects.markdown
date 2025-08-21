@@ -23,6 +23,11 @@ This is a small pack that increases the tempt range for all animals to 2048, whi
 [Github](https://github.com/kraggle09/call-the-animals)  
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/call-the-animals/)  
 
+![Copper Flowers](/assets/projects/copper-flowers.png)  
+This pack allows you to place any flower on a copper golem, without needing an Iron Golem. I first released it on August 20th, 2025.  
+[Github](https://github.com/kraggle09/copper-flowers)  
+[Planet Minecraft](https://www.planetminecraft.com/data-pack/copper-flowers/)  
+
 ## Other
 **Random Skin Generator**  
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
