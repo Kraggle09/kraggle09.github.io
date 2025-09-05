@@ -95,6 +95,20 @@ Template
     </div>
 </div> 
 
+<div style="display: flex; align-items: center;">
+    <img src="/assets/projects/boots-of-swiftness.png" width=400 style="margin-right: 16px;padding-bottom: 1%;">
+    <div>
+        <p>
+            This pack adds boots of swiftness from Minecraft Dungeons. I published it on August 30th, 2025.
+        </p>
+        <p>
+            <a href="https://github.com/kraggle09/boots-of-swiftness">Github</a>
+            <br>
+            <a href="https://www.planetminecraft.com/data-pack/boots-of-swiftness/">Planet Minecraft</a>
+        </p>
+    </div>
+</div> 
+
 ## Other
 **Random Skin Generator**  
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
