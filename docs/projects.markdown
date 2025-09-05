@@ -81,6 +81,20 @@ Template
     </div>
 </div>
 
+<div style="display: flex; align-items: center;">
+    <img src="/assets/projects/die-die-die.png" width=400 style="margin-right: 16px;padding-bottom: 1%;">
+    <div>
+        <p>
+            This pack will kill you every 10 seconds. You can earn advancements to extend that time. I published it on August 25th, 2025.
+        </p>
+        <p>
+            <a href="https://github.com/kraggle09/die-die-die">Github</a>
+            <br>
+            <a href="https://www.planetminecraft.com/data-pack/die-die-die-6711180/">Planet Minecraft</a>
+        </p>
+    </div>
+</div> 
+
 ## Other
 **Random Skin Generator**  
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
