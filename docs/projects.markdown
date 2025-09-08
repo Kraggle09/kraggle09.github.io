@@ -10,7 +10,7 @@ permalink: /projects/
 <!-- 
 Template
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             PLACEHOLDER
@@ -26,7 +26,7 @@ Template
 
 ## Datapacks
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/minecraft-dnd.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/minecraft-dnd.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This was the first datapack that I've made, and definitely the one I'm most proud of. It currently adds all major/minor species from DnD to Minecraft, each one giving unique stats and abilities. I published it on December 8th, 2024.
@@ -40,7 +40,7 @@ Template
 </div> 
 
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/dogplus.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/dogplus.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This is a small pack I made for the Summer 2025 Datapack Jam on Planet Minecraft. It's not very good, but I enjoyed making it and learned some new things along the way. I published it on June 14th, 2025, and it ranked 10th place (out of 10) in the jam.
@@ -54,7 +54,7 @@ Template
 </div>
 
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/call-the-animals.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/call-the-animals.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This is a small pack that increases the tempt range for all animals to 2048, which is pretty cool to watch. It was also the first time I spent a decent amount of effort on the cover image, and I'm pretty happy with how it turned out. I published it on July 12th, 2025.
@@ -68,7 +68,7 @@ Template
 </div>
 
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/copper-flowers.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/copper-flowers.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This pack allows you to place any flower on a copper golem, without needing an Iron Golem. I published it on August 20th, 2025.
@@ -82,7 +82,7 @@ Template
 </div>
 
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/die-die-die.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/die-die-die.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This pack will kill you every 10 seconds. You can earn advancements to extend that time. I published it on August 25th, 2025.
@@ -96,7 +96,7 @@ Template
 </div> 
 
 <div style="display: flex; align-items: stretch;">
-    <img src="/assets/projects/boots-of-swiftness.png" style="width: 55%; margin-right: 16px;padding-bottom: 2%;">
+    <img src="/assets/projects/boots-of-swiftness.png" style="width: 55%; height: auto; object-fit: contain; margin-right: 16px;padding-bottom: 2%;">
     <div style="display: flex; flex-direction: column; justify-content: space-between;">
         <p>
             This pack adds boots of swiftness from Minecraft Dungeons. I published it on August 30th, 2025.
