@@ -4,6 +4,13 @@ title: Printing, variables, and datatypes
 permalink: /python/02/
 ---
 
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+  <div><a href="/python/01/">&lt; Setting up Python</a></div>
+  <div style="position: absolute; left: 50%; transform: translateX(-50%);">Printing, variables, and datatypes</div>
+  <div>WIP &gt;</div>
+</div>
+<br>
+
 Today we'll be learning printing, variables, and datatypes.
 
 First, create a new python file (name it whatever) and open it in your preferred editor. Write the following line:

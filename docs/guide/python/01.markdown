@@ -4,6 +4,13 @@ title: Setting up Python
 permalink: /python/01/
 ---
 
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+  <div><a href="/python/">&lt; About the course</a></div>
+  <div style="position: absolute; left: 50%; transform: translateX(-50%);">Setting up Python</div>
+  <div><a href="/python/02/">Printing, variables, and datatypes &gt;</a></div>
+</div>
+<br>
+
 Welcome to my guide on Python! I've been coding in Python since late 2019, and I think I am at a level now where I can teach others how to use it themselves.
 
 This lesson will be about setting up your Python environment. It's mainly intended for Windows, but any further lessons should work across platforms.

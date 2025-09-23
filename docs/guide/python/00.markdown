@@ -4,6 +4,11 @@ title: About the course
 permalink: /python/
 ---
 
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <p style="flex: 1;"></p>
+  <p style="flex: 1; text-align: center;">About the course</p>
+  <p style="flex: 1; text-align: right;"><a href="/python/01/">Setting up Python &gt;</a></p>
+</div>
 <br>
 
 ## About this course
