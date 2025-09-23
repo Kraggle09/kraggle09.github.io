@@ -27,7 +27,7 @@ Python files (.py) are written in plain text, meaning you can use any text edito
 - [Visual Studio Code](https://code.visualstudio.com): Very powerful, has lots of extensions, but is less lightweight than Sublime Text.
     - Important: Visual Studio **Code** is not the same as Visual Studio. While Visual Studio Code is an advanced text editor for many languages, Visual Studio is a full IDE mainly used for C++ and .NET. You do **not** need Visual Studio to code Python, and will likely overwhelm yourself if you try to use it.
 
-Personally, I like using Visual Studio Code, and that's what I will be using for these tutorials.
+Personally, I like using Visual Studio Code, and that's what I will be using and recommend for these tutorials.
 
 ### Creating a python file
 To create a new python file, you can follow these steps:
@@ -41,3 +41,11 @@ To create a new python file, you can follow these steps:
 ![changing the extension](/images/01-5.png)
     - If it gives you a warning, click Yes.
 4. You can also open the folder in VSCode by right-clicking and choosing Open with Code (you may need to click Show more options first).
+
+### Running code in VSCode
+To run a python file in VSCode, you'll want to open the file in it, then use ctrl+F5. You should see a list of options, choose Python Debugger.
+![options for debugging code](/images/01-6.png)
+
+It will open a terminal session on the bottom of the screen. Not much will happen though, since our file is empty.
+
+You can also run files outside of VSCode by double clicking a .py file. You'll notice though, with an empty file (or even files with code), they will only open a window for a split second, then close it. This is normal, and I'll explain why this happens in the next lesson. For now, just stick to running files in VSCode.
