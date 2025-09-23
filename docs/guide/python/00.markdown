@@ -1,0 +1,25 @@
+---
+layout: default
+title: About the course
+permalink: /python/
+---
+
+<br>
+
+## About this course
+This course will teach you the basics (and intermediates) of Python. It's meant to be a starting point for you to get to grips with Python.
+
+## What you will need
+You will need a PC. Windows is recommended, and will be the platform used here, but most of the stuff in this guide should work on MacOS and Linux. There are mobile versions of Python, but I can't guarantee that they will work 100% with this guide.
+
+## Skill requirement
+You need to at least know the basics of using a PC. File management, command line usage, etc.
+
+## Resources
+Each lesson has code snippets that you can copy and paste, but I recommend typing them out yourself (helps you remember it better).
+
+You can view the full code for each lesson [here](https://github.io/kraggle09/python-tutorial-files).
+
+## This course is still in development, so if you find any issues with it please let me know
+
+[Ready to begin? Start here!](/python/01/)
