@@ -1,0 +1,97 @@
+---
+layout: default
+title: Printing, variables, and datatypes
+permalink: /python/02/
+---
+
+Today we'll be learning printing, variables, and datatypes.
+
+First, create a new python file (name it whatever) and open it in your preferred editor. Write the following line:
+
+<pre><code class="language-python">print("Hello World")</code></pre>
+
+Then run the code. In the console, you should see Hello World outputted.
+
+Congratulations, you just wrote your first line of code in Python!
+
+Let's walk through what this code does:
+
+`print`: This is the main function we are calling. `print` outputs text to the console.  
+`()`: These go around the data we want to feed into the function.  
+`""`: This go around the text, which tells the function we are using a string datatype (more on that later).  
+`Hello World`: This is the text we want to print  
+
+When coding, it's important to follow the **syntax**. Syntax is the specific format you have to write code in, in order for the computer to read it properly.
+
+Try changing the contents of that code to output something else. Make sure to keep the text within the `""` and `()`.
+
+You can have multiple print statements, like this:
+
+<pre><code class="language-python">print("Hello World")
+print("How are you doing?")</code></pre>
+
+## Variables
+Variables are a way to store data that can be used multiple times. Here's an example:
+
+<pre>
+<code class="language-python">a = "Hello World"
+print(a)</code>
+</pre>
+
+This code does two things:
+1. Sets the variable `a` to `"Hello World"`
+2. Prints the contents of that variable.
+
+Notice how we didn't put quotes around the variable when printing it. This is because you only put `""` around strings, like when we set `a` to `"Hello World"`.
+
+## Datatypes
+There are several types of data in Python, each with their own syntax and properties. Here's a few of them:
+
+### String:
+We've been usings strings so far here. You must put `""` around strings, and they can hold any text.  
+**String examples:**  
+"Hello World"  
+"Hi, my name is Kraggle09"  
+"I love pizza"  
+
+### Interger:
+An interger (int) is just a number. You can put any non-decimal number in an int, and unlike strings, you don't need to put `""` around them.  
+**Interger examples:**  
+`42`  
+`193`  
+`3`  
+
+### Float:
+A float is like an int, but supports decimals.  
+**Interger examples:**  
+`3.14`  
+`0.01`  
+`3.333333`  
+
+You can mix and match different datatypes easily in python, like this:
+<pre>
+<code class="language-python">money = 438.29
+score = 87
+print("How much money do I have?")
+print(money)
+print("What percentage score did I get?")
+print(score)
+print("Am I happy?")
+print("Yes")</code>
+</pre>
+
+Notice how variables can hold not only strings, but also intergers, floats, and many other data types.
+
+## Comments
+Finally, I want to quickly touch on comments. Comments allow you to add notes to you code, like this:
+<pre>
+<code class="language-python"># This sets a variable
+a = "Hello World"</code>
+</pre>
+
+Anything within a comment won't be read by the computer, so you can put anything in a comment without messing up your program.
+
+You can also add a comment inline with normal code:
+<pre>
+<code class="language-python">a = "Hello World" # This sets a variable</code>
+</pre>
