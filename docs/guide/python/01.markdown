@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to Python
+title: Setting up Python
 permalink: /python/01/
 ---
 
