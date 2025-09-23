@@ -1,0 +1,43 @@
+---
+layout: default
+title: Introduction to Python
+permalink: /python/01/
+---
+
+Welcome to my guide on Python! I've been coding in Python since late 2019, and I think I am at a level now where I can teach others how to use it themselves.
+
+This lesson will be about setting up your Python environment. It's mainly intended for Windows, but any further lessons should work across platforms.
+
+### Downloading Python
+First, go to [python.org](https://python.org/downloads/). You'll see a big download button, which you could use, but I recommend downloading a slightly older version instead. The main reason is third-party libraries aren't always updated to support newer versions, and this guide will (hopefully) cover those later on. Instead, you'll want to download 3.11.9 (the version I'm working with). It's pretty well supported. You can download it on [this page](https://www.python.org/downloads/release/python-3119/). Click the Windows installer (64-bit) option to download it.
+
+![download options for python 3.11.9](/images/01-1.png)
+
+It will download an installer file. Run it, and check the Add python.exe to PATH option. Then click "Install now". It will install, then you can exit the installer.
+
+![initial python installer window](/images/01-2.png)
+
+To verify the installation worked, open command prompt and run `python --version`. Assuming it worked, you should see the version outputted.
+
+### Ways to write Python code
+Python files (.py) are written in plain text, meaning you can use any text editor to write Python code. However, certain programs will be better than others for Python. Here are a few good options:
+
+- Built in python IDLE: Simple, but not very powerful
+- [Sublime Text](https://www.sublimetext.com/): Less simple, but more powerful, fast.
+- [Visual Studio Code](https://code.visualstudio.com): Very powerful, has lots of extensions, but is less lightweight than Sublime Text.
+    - Important: Visual Studio **Code** is not the same as Visual Studio. While Visual Studio Code is an advanced text editor for many languages, Visual Studio is a full IDE mainly used for C++ and .NET. You do **not** need Visual Studio to code Python, and will likely overwhelm yourself if you try to use it.
+
+Personally, I like using Visual Studio Code, and that's what I will be using for these tutorials.
+
+### Creating a python file
+To create a new python file, you can follow these steps:
+1. Open the folder you want to put the python file in
+  - Some IDEs will put cache files in the same folder, so it's often useful to put python files in a dedicated folder.
+2. Right click inside the folder, and create a new text document.  
+![creating a new text document](/images/01-3.png)
+    - If you haven't already, you should turn on Show file extensions under View > Show > File Extensions (the exact path will differ on older versions of Windows)  
+    ![turning on show file extensions](/images/01-4.png)
+3. When naming the file, make sure to change the extension from .txt to .py
+![changing the extension](/images/01-5.png)
+    - If it gives you a warning, click Yes.
+4. You can also open the folder in VSCode by right-clicking and choosing Open with Code (you may need to click Show more options first).
