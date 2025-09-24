@@ -39,26 +39,26 @@ This allows you to output strings in multiple ways:
 print(myString.upper()) # Output: HELLO
 print(myString.lower()) # Output: hello</code></pre>
 
-## Interger workflows
-There are several things you can do with intergers, mainly math.
+## Integer workflows
+There are several things you can do with integers, mainly math.
 
-You can add two intergers together using +:
+You can add two integers together using +:
 
 <pre><code class="language-python">print(5 + 5) # Output: 10</code></pre>
 
-You can subtract two intergers using -:
+You can subtract two integers using -:
 
 <pre><code class="language-python">print(10 - 5) # Output: 5</code></pre>
 
-You can multiply two intergers using *:
+You can multiply two integers using *:
 
 <pre><code class="language-python">print(5 * 5) # Output: 25</code></pre>
 
-You can divide two intergers using /:
+You can divide two integers using /:
 
 <pre><code class="language-python">print(25 / 5) # Output: 5.0</code></pre>
 
-You'll notice that dividing turns the interger into a float, I'll explain more about that later.
+You'll notice that dividing turns the integer into a float, I'll explain more about that later.
 
 You can use this symbols (operators) on variables too:
 <pre><code class="language-python">a = 5
@@ -83,18 +83,18 @@ The + operator can also be used on strings, but instead of adding the values ari
 
 <pre><code class="language-python">print("Hello " + "World") # Output: Hello World</code></pre>
 
-You can't directly join an interger with a string, but there is a workaround which we will now cover.
+You can't directly join an integer with a string, but there is a workaround which we will now cover.
 
 ## Converting datatypes
 We've talked about a few different datatypes, now let's talk about how to convert between them.
 
-Strings can store any text. That can be letters, numbers, special characters, etc. Intergers can only store non-decimal numbers, and floats expand to include decimals. So how can you use them interchangeably?
+Strings can store any text. That can be letters, numbers, special characters, etc. Integers can only store non-decimal numbers, and floats expand to include decimals. So how can you use them interchangeably?
 
-Each datatypes has a function for this. str() for strings, int() for intergers, and float() for floats. To convert them, you use them like this:
+Each datatypes has a function for this. str() for strings, int() for integers, and float() for floats. To convert them, you use them like this:
 
-<pre><code class="language-python">myInterger = 5
-myString = str(myInterger)
-print(myString) # Output: 5 (but it's a string instead of an interger)</code></pre>
+<pre><code class="language-python">myInteger = 5
+myString = str(myInteger)
+print(myString) # Output: 5 (but it's a string instead of an integer)</code></pre>
 
 Like with the print statement, it's important to keep the right syntax.
 
@@ -102,7 +102,7 @@ This allows you to do math with numbers that happen to be stored as strings. For
 
 <pre><code class="language-python">a = 5
 b = "10"
-c = a + int(b) # Converts the string "10" to a plain interger
+c = a + int(b) # Converts the string "10" to a plain integer
 print(c) # Output: 15</code></pre>
 
 Note that something like this:
@@ -111,12 +111,12 @@ Note that something like this:
 b = int(a)
 print(b)</code></pre>
 
-Will not work, because "hello" cannot be an interger.
+Will not work, because "hello" cannot be an integer.
 
-With this knowledge, let's go back to dividing intergers. As you'll remember, when you divide two intergers, the output is automatically a float. This is so if you divide something like 5 / 2, it will be able to output 2.5. However, if the output is always going to be a non-decimal number, then you can convert the output back to an int like this:
+With this knowledge, let's go back to dividing integers. As you'll remember, when you divide two integers, the output is automatically a float. This is so if you divide something like 5 / 2, it will be able to output 2.5. However, if the output is always going to be a non-decimal number, then you can convert the output back to an int like this:
 
 <pre><code class="language-python">print(int(25 / 5)) # Output: 5</code></pre>
 
-Finally, you can also use convertion to join a string and an interger together:
+Finally, you can also use convertion to join a string and an integer together:
 
 <pre><code class="language-python">print("My favorite number is: " + str(5)) # Output: My favorite number is: 5</code></pre>

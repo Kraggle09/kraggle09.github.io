@@ -61,16 +61,16 @@ We've been usings strings so far here. You must put `""` around strings, and the
 "Hi, my name is Kraggle09"  
 "I love pizza"  
 
-### Interger:
-An interger (int) is just a number. You can put any non-decimal number in an int, and unlike strings, you don't need to put `""` around them.  
-**Interger examples:**  
+### Integer:
+An integer (int) is just a number. You can put any non-decimal number in an int, and unlike strings, you don't need to put `""` around them.  
+**Integer examples:**  
 `42`  
 `193`  
 `3`  
 
 ### Float:
 A float is like an int, but supports decimals.  
-**Interger examples:**  
+**Float examples:**  
 `3.14`  
 `0.01`  
 `3.333333`  
@@ -87,7 +87,7 @@ print("Am I happy?")
 print("Yes")</code>
 </pre>
 
-Notice how variables can hold not only strings, but also intergers, floats, and many other data types.
+Notice how variables can hold not only strings, but also integers, floats, and many other data types.
 
 ## Comments
 Finally, I want to quickly touch on comments. Comments allow you to add notes to your code, like this:
