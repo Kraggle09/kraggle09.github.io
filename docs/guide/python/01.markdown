@@ -11,8 +11,6 @@ permalink: /python/01/
 </div>
 <br>
 
-Welcome to my guide on Python! I've been coding in Python since late 2019, and I think I am at a level now where I can teach others how to use it themselves.
-
 This lesson will be about setting up your Python environment. It's mainly intended for Windows, but any further lessons should work across platforms.
 
 ### Downloading Python

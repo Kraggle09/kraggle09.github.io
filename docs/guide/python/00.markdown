@@ -11,6 +11,8 @@ permalink: /python/
 </div>
 <br>
 
+Welcome to my guide on Python! I've been coding in Python since late 2019, and I think I am at a level now where I can teach others how to use it themselves.
+
 ## About this course
 This course will teach you the basics (and intermediates) of Python. It's meant to be a starting point for you to get to grips with Python. You can follow it in order (recommended for beginners) or jump around (see the [table of contents](/python/toc/)).
 

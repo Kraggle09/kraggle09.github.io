@@ -90,7 +90,7 @@ print("Yes")</code>
 Notice how variables can hold not only strings, but also intergers, floats, and many other data types.
 
 ## Comments
-Finally, I want to quickly touch on comments. Comments allow you to add notes to you code, like this:
+Finally, I want to quickly touch on comments. Comments allow you to add notes to your code, like this:
 <pre>
 <code class="language-python"># This sets a variable
 a = "Hello World"</code>
