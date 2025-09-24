@@ -12,7 +12,7 @@ permalink: /python/
 <br>
 
 ## About this course
-This course will teach you the basics (and intermediates) of Python. It's meant to be a starting point for you to get to grips with Python.
+This course will teach you the basics (and intermediates) of Python. It's meant to be a starting point for you to get to grips with Python. You can follow it in order (recommended for beginners) or jump around (see the [table of contents](/python/toc/)).
 
 ## What you will need
 You will need a PC. Windows is recommended, and will be the platform used here, but most of the stuff in this guide should work on MacOS and Linux. There are mobile versions of Python, but I can't guarantee that they will work 100% with this guide.
