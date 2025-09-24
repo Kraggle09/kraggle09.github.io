@@ -130,12 +130,18 @@ a {
     &:visited {
       color: darken($brand-color-dark, 10%)
     }
+    &:hover {
+      color: $text-color-dark
+    }
   }
 
   [data-theme="light"] & {
     color: $brand-color;
     &:visited {
       color: darken($brand-color, 15%)
+    }
+    &:hover {
+      color: $text-color
     }
   }
   
@@ -144,31 +150,16 @@ a {
     &:visited {
       color: darken($brand-color-dark, 10%)
     }
+    &:hover {
+      color: $text-color-dark
+    }
   }
 
   &:hover {
     color: $text-color;
     text-decoration: underline;
   }
-
-  @media (prefers-color-scheme: dark) {
-    &:hover {
-      color: $text-color-dark
-    }
-  }
-
-  [data-theme="light"] & {
-    &:hover {
-      color: $text-color
-    }
-  }
   
-  [data-theme="dark"] & {
-    &:hover {
-      color: $text-color-dark
-    }
-  }
-
   .social-media-list &:hover {
     text-decoration: none;
 
@@ -219,22 +210,6 @@ pre,
 code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-
-  @media (prefers-color-scheme: dark) {
-    border: 1px solid $grey-color-darkmode-dark;
-    background-color: rgb(81, 81, 86);
-  }
-
-  [data-theme="light"] & {
-    border: 1px solid $grey-color-light;
-    background-color: #eef
-  }
-  
-  [data-theme="dark"] & {
-    border: 1px solid $grey-color-darkmode-dark
-  }
 }
 
 code {
