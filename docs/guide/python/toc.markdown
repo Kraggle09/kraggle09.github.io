@@ -10,7 +10,7 @@ permalink: /python/toc/
 - [01: Setting up Python](/python/01/)
 - [02: Printing, variables, and datatypes](/python/02)
 - 03: Working with datatypes, and accepting user input
-- 04: Logic
+- 04: Booleans and Logic
 - 05: Other data types
 - 06: Functions and loops
 - 07: Randomizing and delaying
