@@ -1,0 +1,122 @@
+---
+layout: default
+title: Working with datatypes
+permalink: /python/03/
+---
+
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+  <div><a href="/python/02/">&lt; Printing, variables, and datatypes</a></div>
+  <div style="position: absolute; left: 50%; transform: translateX(-50%);">Working with datatypes</div>
+  <div>WIP &gt;</div>
+</div>
+<br>
+
+In this lesson we will learn how to work with various datatypes.
+
+## String workflows
+There are a number of things you can do with strings.
+
+You can capitalize the first letter of a string using .capitalize(), like this:
+
+<pre><code class="language-python">print("hello".capitalize()) # Output: Hello</code></pre>
+
+You can capitalize every letter in a string using .upper(), like this:
+
+<pre><code class="language-python">print("hello".upper()) # Output: HELLO</code></pre>
+
+You can make every letter in a string lower-case using .lower(), like this:
+
+<pre><code class="language-python">print("HELLO".lower()) # Output: hello</code></pre>
+
+You can also use these on a variable containing a string:
+
+<pre><code class="language-python">myString = "hello"
+print(myString.capitalize()) # Output: Hello</code></pre>
+
+This allows you to output strings in multiple ways:
+
+<pre><code class="language-python">myString = "HeLlO"
+print(myString.upper()) # Output: HELLO
+print(myString.lower()) # Output: hello</code></pre>
+
+## Interger workflows
+There are several things you can do with intergers, mainly math.
+
+You can add two intergers together using +:
+
+<pre><code class="language-python">print(5 + 5) # Output: 10</code></pre>
+
+You can subtract two intergers using -:
+
+<pre><code class="language-python">print(10 - 5) # Output: 5</code></pre>
+
+You can multiply two intergers using *:
+
+<pre><code class="language-python">print(5 * 5) # Output: 25</code></pre>
+
+You can divide two intergers using /:
+
+<pre><code class="language-python">print(25 / 5) # Output: 5.0</code></pre>
+
+You'll notice that dividing turns the interger into a float, I'll explain more about that later.
+
+You can use this symbols (operators) on variables too:
+<pre><code class="language-python">a = 5
+b = 10
+print(a + b) # Output: 15</code></pre>
+
+You can also use them directly on a variable:
+<pre><code class="language-python">a = 5
+a += 10 # Adds the existing value (5) to the new value (10)
+print(a) # Output: 15</code></pre>
+
+These operators also work on floats:
+
+<pre><code class="language-python">print(3.2 + 4.6) # Output: 7.8
+print(8.2 - 5.3) # Output: 2.8999999999999995
+print(1.4 * 3.2) # Output: 4.4799999999999995
+print(2.2 / 1.2) # Output: 1.8333333333333335</code></pre>
+
+However, you will notice that the numbers are... messy. I'll explain why that happens and how to avoid it in a future lesson.
+
+The + operator can also be used on strings, but instead of adding the values arithmetically, it will join them together. For example:
+
+<pre><code class="language-python">print("Hello " + "World") # Output: Hello World</code></pre>
+
+You can't directly join an interger with a string, but there is a workaround which we will now cover.
+
+## Converting datatypes
+We've talked about a few different datatypes, now let's talk about how to convert between them.
+
+Strings can store any text. That can be letters, numbers, special characters, etc. Intergers can only store non-decimal numbers, and floats expand to include decimals. So how can you use them interchangeably?
+
+Each datatypes has a function for this. str() for strings, int() for intergers, and float() for floats. To convert them, you use them like this:
+
+<pre><code class="language-python">myInterger = 5
+myString = str(myInterger)
+print(myString) # Output: 5 (but it's a string instead of an interger)</code></pre>
+
+Like with the print statement, it's important to keep the right syntax.
+
+This allows you to do math with numbers that happen to be stored as strings. For example:
+
+<pre><code class="language-python">a = 5
+b = "10"
+c = a + int(b) # Converts the string "10" to a plain interger
+print(c) # Output: 15</code></pre>
+
+Note that something like this:
+
+<pre><code class="language-python">a = "hello"
+b = int(a)
+print(b)</code></pre>
+
+Will not work, because "hello" cannot be an interger.
+
+With this knowledge, let's go back to dividing intergers. As you'll remember, when you divide two intergers, the output is automatically a float. This is so if you divide something like 5 / 2, it will be able to output 2.5. However, if the output is always going to be a non-decimal number, then you can convert the output back to an int like this:
+
+<pre><code class="language-python">print(int(25 / 5)) # Output: 5</code></pre>
+
+Finally, you can also use convertion to join a string and an interger together:
+
+<pre><code class="language-python">print("My favorite number is: " + str(5)) # Output: My favorite number is: 5</code></pre>
