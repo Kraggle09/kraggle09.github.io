@@ -28,25 +28,22 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
-
   @media (prefers-color-scheme: dark) {
+    color: $grey-color-darkmode-light;
     &:visited {
       color: $grey-color-darkmode-light
     }
   }
 
   [data-theme="light"] & {
+    color: $text-color;
     &:visited {
-      color: $grey-color-dark;
+      color: $text-color;
     }
   }
   
   [data-theme="dark"] & {
+    color: $grey-color-darkmode-light;
     &:visited {
       color: $grey-color-darkmode-light
     }
