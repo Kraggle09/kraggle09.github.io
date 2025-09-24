@@ -9,7 +9,7 @@ permalink: /python/toc/
 - [About the course](/python/)
 - [01: Setting up Python](/python/01/)
 - [02: Printing, variables, and datatypes](/python/02)
-- 03: Modifying strings, and accepting user input
+- 03: Working with datatypes, and accepting user input
 - 04: Logic
 - 05: Other data types
 - 06: Functions and loops
