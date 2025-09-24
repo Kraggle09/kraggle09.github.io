@@ -1,0 +1,60 @@
+---
+layout: default
+title: User input and f-strings
+permalink: /python/04/
+---
+
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+  <div><a href="/python/03/">&lt; Working with datatypes</a></div>
+  <div style="position: absolute; left: 50%; transform: translateX(-50%);">User input and f-strings</div>
+  <div>WIP &gt;</div>
+</div>
+<br>
+
+In this lesson we will cover accepting user input, as well as a more efficient way to join values together.
+
+To recieve input from the user, you can use the input() function. Here's an example:
+
+<pre><code class="language-python">print("User inputted: " + input())</code></pre>
+
+You'll notice that when you run the code, it doesn't immediately output text. That's because you need to input text into the console first. Type something in, and press enter. You'll then see the output.
+
+You can put something inside the `()` to have it appear before the user's input in the console:
+
+<pre><code class="language-python">print("User's name: " + input("What's your name? "))</code></pre>
+
+This would output something like this:
+
+<pre><code class="language-plaintext">What's your name? Kraggle09
+User's name: Kraggle09</code></pre>
+
+You can also use input() for variables, like this:
+
+<pre><code class="language-python">name = input("What's your name? ")
+print("Your name is " + name)
+print("So, " + name + ", how are you?")</code></pre>
+
+### F-Strings
+
+For a while now we've been using `+` to join values together, but there's a better option. Let's look at an exampled:
+
+<pre><code class="language-python">name = "Kraggle09"
+age = 16
+mood = "happy"
+print("Your name is " + name + ". You are " + str(age) + " years old, and are " + mood + ".")</code></pre>
+
+As you can tell, longer combinations of values can get pretty lengthy.
+
+F-strings are a more efficient alternative, and are pretty simple to use. Here's an example:
+
+<pre><code class="language-python">name = "Kraggle09"
+print(f"Your name is {name}")</code></pre>
+
+We declare the f-string by putting `f` directly before the first `"`. Then, we can insert variables using `{}`. So in the example I mentioned before, we can instead do this:
+
+<pre><code class="language-python">name = "Kraggle09"
+age = 16
+mood = "happy"
+print(f"Your name is {name}. You are {age} years old, and are {mood}.")</code></pre>
+
+Not only is this shorter, but it's also more readable *and* has the added bonus of allowing us to directly insert intergers (and floats) without manually converting them.

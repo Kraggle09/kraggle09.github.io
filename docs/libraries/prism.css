@@ -128,7 +128,7 @@ pre[class*=language-] {
 }
 
 .token.keyword {
-	color: #569CD6;
+	color: #dcce81;
 }
 
 .token.keyword.module,

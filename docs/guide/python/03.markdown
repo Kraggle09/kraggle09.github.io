@@ -7,7 +7,7 @@ permalink: /python/03/
 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
   <div><a href="/python/02/">&lt; Printing, variables, and datatypes</a></div>
   <div style="position: absolute; left: 50%; transform: translateX(-50%);">Working with datatypes</div>
-  <div>WIP &gt;</div>
+  <div><a href="/python/04/">User input and f-strings &gt;</a></div>
 </div>
 <br>
 
