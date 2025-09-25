@@ -115,20 +115,20 @@ a {
   [data-theme="light"] & {
     color: $brand-color;
     &:visited {
-      color: darken($brand-color, 15%)
+      color: $brand-color
     }
     &:hover {
-      color: $text-color
+      color: lighten($brand-color, 10%)
     }
   }
   
   [data-theme="dark"] & {
     color: $brand-color-dark;
     &:visited {
-      color: darken($brand-color-dark, 10%)
+      color: $brand-color-dark
     }
     &:hover {
-      color: $text-color-dark
+      color: darken($brand-color-dark, 5%);
     }
   }
   
