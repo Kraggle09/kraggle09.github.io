@@ -16,38 +16,46 @@
 
   <script>
     (function () {
-      const themes = ['auto', 'light', 'dark'];
-      const button = document.getElementById('theme-toggle');
-      const root = document.documentElement;
+      // We create a couple variables
+      const themes = ['auto', 'light', 'dark']; // A list of available themes
+      const button = document.getElementById('theme-toggle'); // The button from footer.html
+      const root = document.documentElement; // The root element
 
-      function setTheme(theme) {
-        if (theme === 'auto') {
-          root.removeAttribute('data-theme');
-        } else {
-          root.setAttribute('data-theme', theme);
+      // Declaring the setTheme function
+      function setTheme(theme) { // Accepts a theme
+        if (theme === 'auto') { // If the theme is set to auto...
+          if (window.matchMedia('(prefers-color-scheme: dark)').matches === true){
+            root.setAttribute('data-theme', 'dark');
+          } else {
+            root.setAttribute('data-theme', 'light');
+          }
+        } else { // Otherwise...
+          root.setAttribute('data-theme', theme); // Set the theme to the inputted theme
         }
-        localStorage.setItem('theme-button', theme);
-        button.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+        localStorage.setItem('theme-button', theme); // Sets the cookie for the theme button (so it remembers your choice)
+        button.textContent = theme.charAt(0).toUpperCase() + theme.slice(1); // Updates the text on the theme button
       }
 
-      function getNextTheme(current) {
-        const idx = themes.indexOf(current);
-        return themes[(idx + 1) % themes.length];
+      // Declaring the getNextTheme function
+      function getNextTheme(current) { // Accepts the current theme
+        const idx = themes.indexOf(current); // Grabs the current theme id
+        return themes[(idx + 1) % themes.length]; // Sets the theme to the next item in the themes list
       }
 
-      // On load, set theme from localStorage or default to auto
-      let currentTheme = localStorage.getItem('theme-button') || 'auto';
-      setTheme(currentTheme);
+      let currentTheme = localStorage.getItem('theme-button') || 'auto'; // Sets the currentTheme variable to the stored value in the cookies, or to auto if there is no cookie
+      setTheme(currentTheme); // Sets the theme
 
+      // Adds a new event to the button
       button.addEventListener('click', function () {
-        currentTheme = getNextTheme(currentTheme);
-        setTheme(currentTheme);
+        currentTheme = getNextTheme(currentTheme); // Sets currentTheme to the next item in the list
+        setTheme(currentTheme); // Sets the theme to currentTheme
       });
 
-      // Optional: Listen for system theme changes if in auto mode
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-        if (localStorage.getItem('theme-button') === 'auto') {
-          setTheme('auto');
+      // Looks for a change to the system theme
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => { // If it detects a change...
+        if (localStorage.getItem('theme-button') === 'auto') { // If the theme is set to auto...
+          setTheme('auto'); // Update the theme
+          // Hold on, what does this do?
         }
       });
     })();

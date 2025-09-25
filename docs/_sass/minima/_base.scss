@@ -16,8 +16,6 @@ dl, dd, ol, ul, figure {
 
  body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -27,11 +25,6 @@ dl, dd, ol, ul, figure {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
-  @media (prefers-color-scheme: dark) {
-    color: $text-color-dark;
-    background-color: $background-color-dark;
-  }
 
   [data-theme="light"] & {
     color: $text-color;
@@ -117,22 +110,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
   text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    color: $brand-color-dark;
-    &:visited {
-      color: darken($brand-color-dark, 10%)
-    }
-    &:hover {
-      color: $text-color-dark
-    }
-  }
 
   [data-theme="light"] & {
     color: $brand-color;
@@ -168,8 +146,6 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit * 0.5;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -177,11 +153,6 @@ blockquote {
 
   > :last-child {
     margin-bottom: 0;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    color: $grey-color-darkmode;
-    border-left: 4px solid $grey-color-darkmode-light
   }
 
   [data-theme="light"] & {
@@ -264,13 +235,8 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
-
-    @media (prefers-color-scheme: dark) {
-      fill: #{$grey-color-darkmode}
-    }
 
     [data-theme="light"] & {
       fill: #{$grey-color}
@@ -290,31 +256,9 @@ pre {
 #theme-toggle {
   padding: 0.4em 0.5em;
   border-radius: 6px;
-  border: 1px solid $grey-color-light;
-  background: $background-color;
-  color: $text-color;
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.2s, color 0.2s, border 0.2s;
-
-  &:hover, &:focus {
-    background: $brand-color;
-    color: #fff;
-    border-color: $brand-color;
-    outline: none;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    border: 1px solid $grey-color-darkmode-dark;
-    background: $background-color-dark;
-    color: $text-color-dark;
-
-    &:hover, &:focus {
-      background: $brand-color-dark;
-      border-color: $brand-color-dark;
-      color: #fff;
-    }
-  }
 
   [data-theme="light"] & {
     border: 1px solid $grey-color-light;
@@ -327,7 +271,7 @@ pre {
       color: #fff;
     }
   }
-  
+
   [data-theme="dark"] & {
     border: 1px solid $grey-color-darkmode-dark;
     background: $background-color-dark;
@@ -348,14 +292,7 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
-
-  @media (prefers-color-scheme: dark) {
-    color: lighten($text-color-dark, 18%);
-    border: 1px solid $grey-color-darkmode-light
-  }
 
   [data-theme="light"] & {
     color: lighten($text-color, 18%);
@@ -369,12 +306,6 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-
-      @media (prefers-color-scheme: dark) {
-        background-color: lighten($background-color-dark, 6%)
-      }
-
       [data-theme="light"] & {
         background-color: lighten($grey-color-light, 6%)
       }
@@ -388,16 +319,6 @@ table {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
-
-    @media(prefers-color-scheme: dark) {
-      background-color: lighten($background-color-dark, 12%);
-      border: 1px solid darken($grey-color-darkmode-light, 4%);
-      border-bottom-color: darken($grey-color-darkmode-light, 12%);
-    }
-
     [data-theme="light"] & {
       background-color: lighten($grey-color-light, 3%);
       border: 1px solid darken($grey-color-light, 4%);
@@ -412,12 +333,6 @@ table {
   }
 
   td {
-    border: 1px solid $grey-color-light;
-
-    @media(prefers-color-scheme: dark) {
-      border: 1px solid $grey-color-darkmode-light;
-    }
-
     [data-theme="light"] & {
       border: 1px solid $grey-color-light;
     }
