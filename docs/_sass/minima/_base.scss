@@ -28,10 +28,9 @@ dl, dd, ol, ul, figure {
   min-height: 100vh;
   flex-direction: column;
 
-  // Dark mode overrides
   @media (prefers-color-scheme: dark) {
-    color: $text-color-dark; // define this variable in your variables file
-    background-color: $background-color-dark; // define this variable too
+    color: $text-color-dark;
+    background-color: $background-color-dark;
   }
 
   [data-theme="light"] & {
@@ -153,11 +152,6 @@ a {
     &:hover {
       color: $text-color-dark
     }
-  }
-
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
   }
   
   .social-media-list &:hover {

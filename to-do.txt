@@ -1,1 +1,1 @@
-Update hover text for links
+Simplify theme system
