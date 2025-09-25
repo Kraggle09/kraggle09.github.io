@@ -28,6 +28,9 @@
     color: $text-color;
     &:visited {
       color: $text-color;
+    };
+    &:hover, &:focus {
+      color: lighten($text-color, 20%);
     }
   }
   
@@ -35,6 +38,9 @@
     color: $grey-color-darkmode-light;
     &:visited {
       color: $grey-color-darkmode-light
+    };
+    &:hover, &:focus {
+      color: darken($text-color-dark, 10%);
     }
   }
 }
@@ -62,13 +68,19 @@
 
   [data-theme="light"] & {
     .page-link {
-      color: $text-color
+      color: $text-color;
+      &:hover, &:focus {
+        color: lighten($text-color, 20%);
+      }
     }
   }
   
   [data-theme="dark"] & {
     .page-link {
-      color: $text-color-dark
+      color: $text-color-dark;
+      &:hover, &:focus {
+        color: darken($text-color-dark, 15%);
+      }
     }
   }
 
