@@ -11,7 +11,7 @@ permalink: /python/toc/
 - [02: Printing, variables, and datatypes](/python/02/)
 - [03: Working with datatypes](/python/03/)
 - [04: User input and f-strings](/python/04/)
-- 05: Booleans and Logic
+- 05: Controlling the flow
 - 06: Other data types
 - 07: Functions and loops
 - 08: Randomizing and delaying
