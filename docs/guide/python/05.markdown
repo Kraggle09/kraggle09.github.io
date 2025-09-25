@@ -4,6 +4,13 @@ title: Controlling the flow
 permalink: /python/05/
 ---
 
+<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+  <div><a href="/python/03/">&lt; User input and f-strings</a></div>
+  <div style="position: absolute; left: 50%; transform: translateX(-50%);">Controlling the flow</div>
+  <div>WIP &gt;</div>
+</div>
+<br>
+
 In this lesson we will learn how to control the flow of your code, and a new datatype.
 
 The `if` statement allows you to run code only if a certain condition is met. Here's an example:
