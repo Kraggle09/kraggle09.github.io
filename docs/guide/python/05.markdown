@@ -21,9 +21,9 @@ if canDrive == True:
 
 This has several new things here, so let's break them down:
 
-`canDrive = True`: this is a new datatype called a boolean. It can have two states: `True` and `False`. Note that `True` and `False` should not be in quotes, since they aren't a string.
-`if canDrive == True`: This has 4 main parts: The `if` statement itself, the first item to compare (in this case `canDrive`), how to compare it, and the second value to compare (in this case `True`).
-`print("You can drive!")`: This is the code to run if the above statement meets its criteria. Notice that it is indented, this is important.
+`canDrive = True`: this is a new datatype called a boolean. It can have two states: `True` and `False`. Note that `True` and `False` should not be in quotes, since they aren't a string.  
+`if canDrive == True`: This has 4 main parts: The `if` statement itself, the first item to compare (in this case `canDrive`), how to compare it, and the second value to compare (in this case `True`).  
+`print("You can drive!")`: This is the code to run if the above statement meets its criteria. Notice that it is indented, this is important.  
 
 Altogether, the code does this:
 1. Sets the variable `canDrive` to `True`
