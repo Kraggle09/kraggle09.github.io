@@ -32,7 +32,7 @@ When coding, it's important to follow the **syntax**. Syntax is the specific for
 
 Try changing the contents of that code to output something else. Make sure to keep the text within the `""` and `()`.
 
-You can have multiple print statements, like this:
+You can have multiple `print` statements, like this:
 
 <pre><code class="language-python">print("Hello World")
 print("How are you doing?")</code></pre>
@@ -57,9 +57,9 @@ There are several types of data in Python, each with their own syntax and proper
 ### String:
 We've been usings strings so far here. You must put `""` around strings, and they can hold any text.  
 **String examples:**  
-"Hello World"  
-"Hi, my name is Kraggle09"  
-"I love pizza"  
+`"Hello World"`  
+`"Hi, my name is Kraggle09"`  
+`"I love pizza"`  
 
 ### Integer:
 An integer (int) is just a number. You can put any non-decimal number in an int, and unlike strings, you don't need to put `""` around them.  

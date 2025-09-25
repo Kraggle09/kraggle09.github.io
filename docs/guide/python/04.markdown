@@ -13,7 +13,7 @@ permalink: /python/04/
 
 In this lesson we will cover accepting user input, as well as a more efficient way to join values together.
 
-To recieve input from the user, you can use the input() function. Here's an example:
+To recieve input from the user, you can use the `input()` function. Here's an example:
 
 <pre><code class="language-python">print("User inputted: " + input())</code></pre>
 
@@ -28,7 +28,7 @@ This would output something like this:
 <pre><code class="language-plaintext">What's your name? Kraggle09
 User's name: Kraggle09</code></pre>
 
-You can also use input() for variables, like this:
+You can also use `input()` for variables, like this:
 
 <pre><code class="language-python">name = input("What's your name? ")
 print("Your name is " + name)

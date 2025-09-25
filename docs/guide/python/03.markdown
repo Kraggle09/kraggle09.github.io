@@ -16,15 +16,15 @@ In this lesson we will learn how to work with various datatypes.
 ## String workflows
 There are a number of things you can do with strings.
 
-You can capitalize the first letter of a string using .capitalize(), like this:
+You can capitalize the first letter of a string using `.capitalize()`, like this:
 
 <pre><code class="language-python">print("hello".capitalize()) # Output: Hello</code></pre>
 
-You can capitalize every letter in a string using .upper(), like this:
+You can capitalize every letter in a string using `.upper()`, like this:
 
 <pre><code class="language-python">print("hello".upper()) # Output: HELLO</code></pre>
 
-You can make every letter in a string lower-case using .lower(), like this:
+You can make every letter in a string lower-case using `.lower()`, like this:
 
 <pre><code class="language-python">print("HELLO".lower()) # Output: hello</code></pre>
 
@@ -42,19 +42,19 @@ print(myString.lower()) # Output: hello</code></pre>
 ## Integer workflows
 There are several things you can do with integers, mainly math.
 
-You can add two integers together using +:
+You can add two integers together using `+`:
 
 <pre><code class="language-python">print(5 + 5) # Output: 10</code></pre>
 
-You can subtract two integers using -:
+You can subtract two integers using `-`:
 
 <pre><code class="language-python">print(10 - 5) # Output: 5</code></pre>
 
-You can multiply two integers using *:
+You can multiply two integers using `*`:
 
 <pre><code class="language-python">print(5 * 5) # Output: 25</code></pre>
 
-You can divide two integers using /:
+You can divide two integers using `/`:
 
 <pre><code class="language-python">print(25 / 5) # Output: 5.0</code></pre>
 
@@ -79,7 +79,7 @@ print(2.2 / 1.2) # Output: 1.8333333333333335</code></pre>
 
 However, you will notice that the numbers are... messy. I'll explain why that happens and how to avoid it in a future lesson.
 
-The + operator can also be used on strings, but instead of adding the values arithmetically, it will join them together. For example:
+The `+` operator can also be used on strings, but instead of adding the values arithmetically, it will join them together. For example:
 
 <pre><code class="language-python">print("Hello " + "World") # Output: Hello World</code></pre>
 
@@ -90,13 +90,13 @@ We've talked about a few different datatypes, now let's talk about how to conver
 
 Strings can store any text. That can be letters, numbers, special characters, etc. Integers can only store non-decimal numbers, and floats expand to include decimals. So how can you use them interchangeably?
 
-Each datatypes has a function for this. str() for strings, int() for integers, and float() for floats. To convert them, you use them like this:
+Each datatypes has a function for this. `str()` for strings, `int()` for integers, and `float()` for floats. To convert them, you use them like this:
 
 <pre><code class="language-python">myInteger = 5
 myString = str(myInteger)
 print(myString) # Output: 5 (but it's a string instead of an integer)</code></pre>
 
-Like with the print statement, it's important to keep the right syntax.
+Like with the `print` statement, it's important to keep the right syntax.
 
 This allows you to do math with numbers that happen to be stored as strings. For example:
 
