@@ -4,10 +4,16 @@ title: Controlling the flow
 permalink: /python/05/
 ---
 
-<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-  <div><a href="/python/03/">&lt; User input and f-strings</a></div>
-  <div style="position: absolute; left: 50%; transform: translateX(-50%);">Controlling the flow</div>
-  <div>WIP &gt;</div>
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; width: 100%; text-align: center; gap: 1rem;">
+  <div style="text-align: left; overflow-wrap: anywhere;">
+    <a href="/python/04/">&lt; User input and f-strings</a>
+  </div>
+  <div style="justify-self: center;">
+    Controlling the flow
+  </div>
+  <div style="text-align: right; overflow-wrap: anywhere;">
+    WIP &gt;
+  </div>
 </div>
 <br>
 

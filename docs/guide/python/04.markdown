@@ -4,10 +4,16 @@ title: User input and f-strings
 permalink: /python/04/
 ---
 
-<div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-  <div><a href="/python/03/">&lt; Working with datatypes</a></div>
-  <div style="position: absolute; left: 50%; transform: translateX(-50%);">User input and f-strings</div>
-  <div><a href="/python/05/">Controlling the flow &gt;</a></div>
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; width: 100%; text-align: center; gap: 1rem;">
+  <div style="text-align: left; overflow-wrap: anywhere;">
+    <a href="/python/03/">&lt; Working with datatypes</a>
+  </div>
+  <div style="justify-self: center;">
+    User input and f-strings
+  </div>
+  <div style="text-align: right; overflow-wrap: anywhere;">
+    <a href="/python/05/">Controlling the flow &gt;</a>
+  </div>
 </div>
 <br>
 
