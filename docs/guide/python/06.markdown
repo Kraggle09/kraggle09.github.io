@@ -1,0 +1,107 @@
+---
+layout: default
+title: Lists, Tuples, and Dictionaries
+permalink: /python/06/
+---
+
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; width: 100%; text-align: center; gap: 1rem;">
+  <div style="text-align: left; overflow-wrap: anywhere;">
+    <a href="/python/05/">&lt; Controlling the flow</a>
+  </div>
+  <div style="justify-self: center;">
+    Lists, Tuples, and Dictionaries
+  </div>
+  <div style="text-align: right; overflow-wrap: anywhere;">
+    WIP &gt;
+  </div>
+</div>
+<br>
+
+In this lesson we will be learning 3 more datatypes: Lists, Tuples, and Dictionaries.
+
+## Lists
+
+Lists allow you to store multiple items within one variable. Here's an example:
+
+<pre><code class="language-python">animals = ["cat", "dog", "bird"]</code></pre>
+
+As you can see, we can put multiple strings within this one `animals` variable. Each item is seperated by a comment, and the list is surrounded by `[]`.
+
+You can grab the contents of a list by calling it:
+<pre><code class="language-python">print(animals) # Output: ['cat', 'dog', 'bird']</code></pre>
+
+You can grab a specific item of a list like this:
+<pre><code class="language-python">print(animals[0]) # Output: cat</code></pre>
+
+This will print the first item from this list, which in this case would be `cat`. Yes, `0` is a valid number here, because lists start at `0` instead of `1`.
+
+You can add an item to a list using `.append()`. For example:
+<pre><code class="language-python">animals.append("horse")</code></pre>
+
+This will add the item `"horse"` to the end of our `animals` list.
+
+We can also insert an item to a specific location of our list using `.insert()`:
+
+<pre><code class="language-python">highScoreOwners = ["Jake", "Sarah"]
+print(highScoreOwners) # Output: ['Jake', 'Sarah']
+highScoreOwners.insert(1, "Michael")
+print(highScoreOwners) # Output: ['Jake', 'Michael', 'Sarah']</code></pre>
+
+This will add the item `"Michael"` to placement (index) `1`, which pushes `"Sarah"` to index `2`.
+
+You can remove an item from a list by value using `.remove()`:
+<pre><code class="language-python">currentSubscriptionHolders = ["Michelle", "John", "Clint"]
+print(currentSubscriptionHolders) # Output: ['Michelle', 'John', 'Clint']
+currentSubscriptionHolders.remove("John") # Removes the first item with a value of "John"
+print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']</code></pre>
+
+Or, you can remove an item from a list by index using `pop()`:
+
+<pre><code class="language-python">currentSubscriptionHolders = ["Michelle", "John", "Clint"]
+print(currentSubscriptionHolders) # Output: ['Michelle', 'John', 'Clint']
+currentSubscriptionHolders.pop(1) # Removes the item at index 1
+print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']</code></pre>
+
+## Tuples
+A tuple is like a list, but you cannot modify it after it's created. You create it like this:
+<pre><code class="language-python">planOptions = ("basic", "plus", "premiere")</code></pre>
+
+You can still grab items from it likes lists:
+
+<pre><code class="language-python">print(planOptions[1])</code></pre>
+
+But you can't add or remove items from the tuple within the code.
+
+> Note that tuples can still be modified before/after the code runs, but you can't dynamically add an item while the code is running like you can with lists.
+
+### Why use tuples?
+Since you can't modify tuples, why even use them instead of lists?
+
+It's mainly system resources. A list stores extra data in the memory for dynamic resizing and reorganizing. Tuples have no need for that extra data, meaning they take up ~20-30% less data than a list. But, the larger a list, the smaller that difference gets. So if you have thousands or even millions of tiny lists like [x, y], they will take up a lot more memory than the same amount of (x, y) tuples.
+
+Using tuples is also better for code readiblity. If I see a list in my code (or someone else's code), I know it probably will be modified at some point later on. But if it's a tuple, I know it's a static list.
+
+All of this is to say, it's generally best practice to use tuples for anything you don't plan to modify while the code is running (like the planOptions list I made earlier), and lists for stuff you do want to modify.
+
+## Dictionaries
+Now, lists and tuples are great and all, but what happens when you want to be able to identify items with something more discriptive than an index? This is where dictionaries come in.
+
+Dictionaries use key-value pairs. This means each value has a key by which you can grab (call) it. Here's an example of a list:
+
+<pre><code class="language-python">favoriteAnimals = {"Janet": "cat", "Ann": "dog", "Doug": "bird"}</code></pre>
+
+Calling an item from a dictionary works largely in the same way as lists and tuples, but instead of grabbing it by ID, you grab it by the key.
+
+<pre><code class="language-python">print(favoriteAnimals["Ann"]) # Output: dog</code></pre>
+
+To add an item to a dictionary, you do this:
+
+<pre><code class="language-python">favoriteAnimals["Frank"] = "horse"</code></pre>
+
+Notice how this is pretty similar in syntax to variables.
+
+You can remove an item from a dictionary by using `.pop()`, but instead of by the index, you use the key:
+
+<pre><code class="language-python">favoriteAnimals.pop("Janet")</code></pre>
+
+> During this lesson we have only been using strings to our lists, tuples, and dictionaries (referred to collectively as Collections), but you can also put intergers, floats, booleans, and even other collections inside them.

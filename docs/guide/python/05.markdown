@@ -12,7 +12,7 @@ permalink: /python/05/
     Controlling the flow
   </div>
   <div style="text-align: right; overflow-wrap: anywhere;">
-    WIP &gt;
+    <a href="/python/06/">Lists, Tuples, and Dictionaries &gt;</a>
   </div>
 </div>
 <br>

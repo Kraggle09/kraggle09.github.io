@@ -12,9 +12,9 @@ permalink: /python/toc/
 - [03: Working with datatypes](/python/03/)
 - [04: User input and f-strings](/python/04/)
 - [05: Controlling the flow](/python/05/)
-- 06: Other data types
-- 07: Functions and loops
-- 08: Randomizing and delaying
-- 09: Classes
-- 10: Errors
+- [06: Lists, Tuples, and Dictionaries](/python/06/)
+- 07: Errors
+- 08: Functions and loops
+- 09: Randomizing and delaying
+- 10: Classes
 - 11: Working with files
