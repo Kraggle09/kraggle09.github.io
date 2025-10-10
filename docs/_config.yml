@@ -5,12 +5,18 @@ description: > # this means to ignore newlines until "twitter_username:"
   Home to all things Kraggle09
 
 # social links
+# Active Accounts:
+github_username:  Kraggle09
+pmc_username: Kraggle09
+
+# Inactive Accounts
+# flickr_username: redstoneweekly
+
+# Non-existant Accounts
 # twitter_username: jekyllrb
-github_username:  kraggle09
 # rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
-flickr_username: redstoneweekly
 # instagram_username: jekyll
 # linkedin_username: jekyll
 # pinterest_username: jekyll
@@ -36,6 +42,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.html
+# Are you kidding me? I MANUALLY CREATED A SYSTEM THAT ALREADY EXISTS???
+# Well no, I guess I told AI to create the system, so at least I didn't waste that much effort.
 
 # Build settings
 # theme: minima
