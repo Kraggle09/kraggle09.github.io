@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Install Java
 ---
 # How to install Java

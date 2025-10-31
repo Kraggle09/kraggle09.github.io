@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Minecraft Text
 ---
 *This is a guide I wrote a little while back, and I decided to post it here because why not.*

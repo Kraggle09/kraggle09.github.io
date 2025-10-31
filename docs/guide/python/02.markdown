@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Printing, variables, and datatypes
 permalink: /python/02/
 ---

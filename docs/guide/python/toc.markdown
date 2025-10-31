@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Table of Contents
 permalink: /python/toc/
 ---
