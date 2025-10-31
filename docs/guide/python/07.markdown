@@ -46,7 +46,7 @@ And it will run fine.
 
 If you use a program like VSCode, you'll see that it actually underlines bad code for you, which can really help when coding.
 
-![red underline on bad code in vscode](/images/07-1.png)
+![red underline on bad code in vscode](/guide/python/images/07-1.png)
 
 Not everything is as simple as missing a quote. Here's an example, can you find the error here?
 
