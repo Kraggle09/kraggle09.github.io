@@ -13,7 +13,7 @@ permalink: /python/toc/
 - [04: User input and f-strings](/python/04/)
 - [05: Controlling the flow](/python/05/)
 - [06: Lists, Tuples, and Dictionaries](/python/06/)
-- 07: Errors
+- [07: Errors](/python/07/)
 - 08: Functions and loops
 - 09: Randomizing and delaying
 - 10: Classes

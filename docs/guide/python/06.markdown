@@ -12,7 +12,7 @@ permalink: /python/06/
     Lists, Tuples, and Dictionaries
   </div>
   <div style="text-align: right; overflow-wrap: anywhere;">
-    WIP &gt;
+    <a href="/python/07/">Errors &gt;</a>
   </div>
 </div>
 <br>

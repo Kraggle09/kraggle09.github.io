@@ -1,0 +1,52 @@
+---
+layout: default
+title: Errors
+permalink: /python/07/
+---
+
+<div style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; width: 100%; text-align: center; gap: 1rem;">
+  <div style="text-align: left; overflow-wrap: anywhere;">
+    <a href="/python/06/">&lt; Lists, Tuples, and Dictionaries</a>
+  </div>
+  <div style="justify-self: center;">
+    Errors
+  </div>
+  <div style="text-align: right; overflow-wrap: anywhere;">
+    WIP &gt;
+  </div>
+</div>
+<br>
+
+# THIS PAGE IS INCOMPLETE
+
+In this lesson we will be covering errors and how to handle, or (hopefully) avoid them entirely.
+
+Here's some code:
+
+<pre><code class="language-python">print("Hello)</code></pre>
+
+If you run it, you'll get a chunk of text, like this:
+
+<pre><code class="language-plaintext">File "c:\Users\redpi\Documents\Documents\Github\Coding\python-tutorial-files\07.py", line 1
+    print("Hello)
+          ^
+SyntaxError: unterminated string literal (detected at line 1)</code></pre>
+
+Let's break this down:  
+`File "c:\Users\redpi\Documents\Documents\Github\Coding\python-tutorial-files\07.py", line 1`: This tells you what file had an error, and on which line it happened on.  
+`print("Hello)`: This shows you the line of code that had an error.  
+`^`: This shows you where within the line the error happened.  
+`SyntaxError: unterminated string literal (detected at line 1)`: This is the actual error itself.  
+
+When we look at that error, we can easily tell the problem. "Unterminated string literal", well that's because I forgot to close the string when printing. We can fix it like this:
+
+<pre><code class="language-python">print("Hello")</code></pre>
+
+And it will run fine.
+
+If you use a program like VSCode, you'll see that it actually underlines bad code for you, which can really help when coding.
+
+![red underline on bad code in vscode](/images/07-1.png)
+
+Not everything is as simple as missing a quote. Here's an example, can you find the error here?
+
