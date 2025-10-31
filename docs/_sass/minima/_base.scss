@@ -1,3 +1,7 @@
+html {
+  font-size: $base-font-size;
+}
+
 /**
  * Reset some basic elements
  */
@@ -6,6 +10,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -13,9 +18,10 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-
- body {
+body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -25,17 +31,10 @@ dl, dd, ol, ul, figure {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
-  [data-theme="light"] & {
-    color: $text-color;
-    background-color: $background-color;
-  }
-  
-  [data-theme="dark"] & {
-    color: $text-color-dark;
-    background-color: $background-color-dark;
-  }
+  overflow-wrap: break-word;
 }
+
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -44,10 +43,13 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * 0.5;
+  margin-bottom: $spacing-unit * .5;
 }
 
-
+hr {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
 
 /**
  * `main` element
@@ -101,37 +103,28 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  color: $heading-color;
+  font-weight: 400;
 }
-
 
 
 /**
  * Links
  */
 a {
+  color: $link-base-color;
   text-decoration: none;
 
-  [data-theme="light"] & {
-    color: $brand-color;
-    &:visited {
-      color: $brand-color
-    }
-    &:hover {
-      color: lighten($brand-color, 10%)
-    }
+  &:visited {
+    color: $link-visited-color;
   }
-  
-  [data-theme="dark"] & {
-    color: $brand-color-dark;
-    &:visited {
-      color: $brand-color-dark
-    }
-    &:hover {
-      color: darken($brand-color-dark, 5%);
-    }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline $brand-color;
+    text-underline-offset: 3px;
   }
-  
+
   .social-media-list &:hover {
     text-decoration: none;
 
@@ -146,20 +139,18 @@ a {
  * Blockquotes
  */
 blockquote {
-  padding-left: $spacing-unit * 0.5;
+  color: $brand-color;
+  border-left: 4px solid $border-color-01;
+  padding-left: $spacing-unit * .5;
+  @include relative-font-size(1.05);
+  font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
   }
 
-  [data-theme="light"] & {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light
-  }
-  
-  [data-theme="dark"] & {
-    color: $grey-color-darkmode;
-    border-left: 4px solid $grey-color-darkmode-light
+  i, em {
+    font-style: normal;
   }
 }
 
@@ -170,23 +161,51 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-}
+  font-family: $code-font-family;
+  background-color: $code-background-color;
 
-code {
-  padding: 1px 5px;
+  @include media-query($on-palm) {
+    font-family: monospace;
+  }
 }
 
 pre {
   padding: 8px 12px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: $heading-color;
   overflow-x: auto;
 
   > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    display: inline-block;
+    width: 100%;
   }
+}
+
+div.highlight, figure.highlight {
+  @extend %vertical-rhythm;
+  border: 1px solid $border-color-01;
+  border-radius: 3px;
+  pre { margin: 0 }
+  table, tbody, th, tr, td {
+    margin: 0;
+    padding: 0;
+    border: 0
+  }
+  .lineno, .gl { text-align: right }
+}
+
+figure.highlight {
+  table { margin: -8px -12px -14px }
+  td.gutter { border-right: 1px solid $border-color-01 }
+  td.code { width: 100% }
+}
+
+code.highlighter-rouge {
+  padding: 1px 5px;
+  font-size: 14px;
+  border: 1px solid $border-color-01;
+  border-radius: 3px;
 }
 
 
@@ -195,19 +214,14 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit * 0.5;
-    padding-left: $spacing-unit * 0.5;
+  @media screen and (max-width: $on-medium) {
+    padding-right: $spacing-unit * 0.6;
+    padding-left: $spacing-unit * 0.6;
   }
 }
 
@@ -228,59 +242,23 @@ pre {
  * Icons
  */
 
+.orange {
+  color: #f66a0a;
+}
+
+.grey {
+  color: #828282;
+}
+
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: text-top;
-
-    [data-theme="light"] & {
-      fill: #{$grey-color}
-    }
-    
-    [data-theme="dark"] & {
-      fill: #{$grey-color-darkmode}
-    }
+  width: 1.25em;
+  height: 1.25em;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  overflow: visible;
 }
 
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
-}
-
-#theme-toggle {
-  padding: 0.4em 0.5em;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s, color 0.2s, border 0.2s;
-
-  [data-theme="light"] & {
-    border: 1px solid $grey-color-light;
-    background: $background-color;
-    color: $text-color;
-
-    &:hover, &:focus {
-      background: $brand-color;
-      border-color: $brand-color;
-      color: #fff;
-    }
-  }
-
-  [data-theme="dark"] & {
-    border: 1px solid $grey-color-darkmode-dark;
-    background: $background-color-dark;
-    color: $text-color-dark;
-
-    &:hover, &:focus {
-      background: $brand-color-dark;
-      border-color: $brand-color-dark;
-      color: #fff;
-    }
-  }
-}
 
 /**
  * Tables
@@ -289,53 +267,29 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
+  color: $table-text-color;
   border-collapse: collapse;
-
-  [data-theme="light"] & {
-    color: lighten($text-color, 18%);
-    border: 1px solid $grey-color-light
-  }
-  
-  [data-theme="dark"] & {
-    color: lighten($text-color-dark, 18%);
-    border: 1px solid $grey-color-darkmode-light
-  }
-
+  border: 1px solid $table-border-color;
   tr {
     &:nth-child(even) {
-      [data-theme="light"] & {
-        background-color: lighten($grey-color-light, 6%)
-      }
-
-      [data-theme="dark"] & {
-        background-color: lighten($background-color-dark, 6%)
-      }
+      background-color: $table-zebra-color;
     }
   }
   th, td {
-    padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
+    padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
   }
   th {
-    [data-theme="light"] & {
-      background-color: lighten($grey-color-light, 3%);
-      border: 1px solid darken($grey-color-light, 4%);
-      border-bottom-color: darken($grey-color-light, 12%);
-    }
-
-    [data-theme="dark"] & {
-      background-color: lighten($background-color-dark, 12%);
-      border: 1px solid darken($grey-color-darkmode-light, 4%);
-      border-bottom-color: darken($grey-color-darkmode-light, 12%);
-    }
+    background-color: $table-header-bg-color;
+    border: 1px solid $table-header-border;
+  }
+  td {
+    border: 1px solid $table-border-color;
   }
 
-  td {
-    [data-theme="light"] & {
-      border: 1px solid $grey-color-light;
-    }
-
-    [data-theme="dark"] & {
-      border: 1px solid $grey-color-darkmode-light;
-    }
+  @include media-query($on-laptop) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }

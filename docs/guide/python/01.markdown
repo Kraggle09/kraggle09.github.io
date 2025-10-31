@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Setting up Python
 permalink: /python/01/
 ---
@@ -22,11 +22,11 @@ This lesson will be about setting up your Python environment. It's mainly intend
 ### Downloading Python
 First, go to [python.org](https://python.org/downloads/). You'll see a big download button, which you could use, but I recommend downloading a slightly older version instead. The main reason is third-party libraries aren't always updated to support newer versions, and this guide will (hopefully) cover those later on. Instead, you'll want to download 3.11.9 (the version I'm working with). It's pretty well supported. You can download it on [this page](https://www.python.org/downloads/release/python-3119/). Click the Windows installer (64-bit) option to download it.
 
-![download options for python 3.11.9](/images/01-1.png)
+![download options for python 3.11.9](/guide/python/images/01-1.png)
 
 It will download an installer file. Run it, and check the Add python.exe to PATH option. Then click "Install now". It will install, then you can exit the installer.
 
-![initial python installer window](/images/01-2.png)
+![initial python installer window](/guide/python/images/01-2.png)
 
 To verify the installation worked, open command prompt and run `python --version`. Assuming it worked, you should see the version outputted.
 
@@ -45,17 +45,17 @@ To create a new python file, you can follow these steps:
 1. Open the folder you want to put the python file in
   - Some IDEs will put cache files in the same folder, so it's often useful to put python files in a dedicated folder.
 2. Right click inside the folder, and create a new text document.  
-![creating a new text document](/images/01-3.png)
+![creating a new text document](/guide/python/images/01-3.png)
     - If you haven't already, you should turn on Show file extensions under View > Show > File Extensions (the exact path will differ on older versions of Windows)  
-    ![turning on show file extensions](/images/01-4.png)
+    ![turning on show file extensions](/guide/python/images/01-4.png)
 3. When naming the file, make sure to change the extension from .txt to .py
-![changing the extension](/images/01-5.png)
+![changing the extension](/guide/python/images/01-5.png)
     - If it gives you a warning, click Yes.
 4. You can also open the folder in VSCode by right-clicking and choosing Open with Code (you may need to click Show more options first).
 
 ### Running code in VSCode
 To run a python file in VSCode, you'll want to open the file in it, then use ctrl+F5. You should see a list of options, choose Python Debugger.
-![options for debugging code](/images/01-6.png)
+![options for debugging code](/guide/python/images/01-6.png)
 
 It will open a terminal session on the bottom of the screen. Not much will happen though, since our file is empty.
 

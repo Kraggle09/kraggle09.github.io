@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Controlling the flow
 permalink: /python/05/
 ---
@@ -21,9 +21,11 @@ In this lesson we will learn how to control the flow of your code, and a new dat
 
 The `if` statement allows you to run code only if a certain condition is met. Here's an example:
 
-<pre><code class="language-python">canDrive = True
+```python
+canDrive = True
 if canDrive == True:
-    print("You can drive!")</code></pre>
+    print("You can drive!")
+```
 
 This has several new things here, so let's break them down:
 
@@ -49,9 +51,11 @@ Let's go back to that `==` part. This is a comparison operator, it compares two 
 
 Here's another way to use the `if` statement, using the `>=` comparison operator:
 
-<pre><code class="language-python">age = 25
+```python
+age = 25
 if age >= 18:
-    print("You can vote!")</code></pre>
+    print("You can vote!")
+```
 
 A couple things to keep in mind:
 - You can't directly compare values of different types with each other. For example, you can't compare `"18" == 18`, because they are two different types. But you can compare `int("18") == 18`, since `int()` converts it.
@@ -59,11 +63,13 @@ A couple things to keep in mind:
 
 Now, let's say we want a different output if the check fails, we can use the `else` statement. The `else` statement will only run if the above `if` statement's check doesn't meet its criteria. Here's an example:
 
-<pre><code class="language-python">age = 15
+```python
+age = 15
 if age >= 16:
     print("You can get a license!")
 else:
-    print("Sorry, you can't get a license.")</code></pre>
+    print("Sorry, you can't get a license.")
+```
 
 The second print line will only run if the age is less than 16.
 
@@ -71,22 +77,26 @@ But what if we want to run a second `if` statement only `if` the first one fails
 
 Here's an example:
 
-<pre><code class="language-python">money = 15.00
+```python
+money = 15.00
 if money >= 15.00:
     print("You can afford the item!")
 elif money >= 14.00:
     print("Just a little more money and you'll be able to buy the item!")
 else:
-    print("Sorry, you can't afford this item.")</code></pre>
+    print("Sorry, you can't afford this item.")
+```
 
 Notice how you can use `if`, `elif`, and `else` statements alongside each other. That allows some pretty complex workflows.
 
 Of course, `if` statements aren't very useful unless the code runs differently each time. That's where the `input()` function comes in handy. Here's an example:
 
-<pre><code class="language-python">age = int(input("How old are you?"))
+```python
+age = int(input("How old are you?"))
 if age >= 21:
     print("You can drink!")
 else:
-    print("Sorry, you can't drink.")</code></pre>
+    print("Sorry, you can't drink.")
+```
 
 This code will run differently depending on whether you input an age higher or lower than 21.

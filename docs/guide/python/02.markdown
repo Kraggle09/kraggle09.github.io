@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Printing, variables, and datatypes
 permalink: /python/02/
 ---
@@ -21,7 +21,9 @@ Today we'll be learning printing, variables, and datatypes.
 
 First, create a new python file (name it whatever) and open it in your preferred editor. Write the following line:
 
-<pre><code class="language-python">print("Hello World")</code></pre>
+```python
+print("Hello World")
+```
 
 Then run the code. In the console, you should see Hello World outputted.
 
@@ -40,16 +42,18 @@ Try changing the contents of that code to output something else. Make sure to ke
 
 You can have multiple `print` statements, like this:
 
-<pre><code class="language-python">print("Hello World")
-print("How are you doing?")</code></pre>
+```python
+print("Hello World")
+print("How are you doing?")
+```
 
 ## Variables
 Variables are a way to store data that can be used multiple times. Here's an example:
 
-<pre>
-<code class="language-python">a = "Hello World"
-print(a)</code>
-</pre>
+```python
+a = "Hello World"
+print(a)
+```
 
 This code does two things:
 1. Sets the variable `a` to `"Hello World"`
@@ -82,29 +86,29 @@ A float is like an int, but supports decimals.
 `3.333333`  
 
 You can mix and match different datatypes easily in python, like this:
-<pre>
-<code class="language-python">money = 438.29
+```python
+money = 438.29
 score = 87
 print("How much money do I have?")
 print(money)
 print("What percentage score did I get?")
 print(score)
 print("Am I happy?")
-print("Yes")</code>
-</pre>
+print("Yes")
+```
 
 Notice how variables can hold not only strings, but also integers, floats, and many other data types.
 
 ## Comments
 Finally, I want to quickly touch on comments. Comments allow you to add notes to your code, like this:
-<pre>
-<code class="language-python"># This sets a variable
-a = "Hello World"</code>
-</pre>
+```python
+# This sets a variable
+a = "Hello World"
+```
 
 Anything within a comment won't be read by the computer, so you can put anything in a comment without messing up your program.
 
 You can also add a comment inline with normal code:
-<pre>
-<code class="language-python">a = "Hello World" # This sets a variable</code>
-</pre>
+```python
+a = "Hello World" # This sets a variable
+```

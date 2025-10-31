@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Self Hosted Cloud Storage/Syncing
 ---
 # How to make your own self hosted cloud storage/syncing service

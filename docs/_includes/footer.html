@@ -1,63 +1,32 @@
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
 <footer class="site-footer h-card">
-  <button id="theme-toggle" aria-label="Toggle theme" style="position:fixed;bottom:1rem;left:1rem;z-index:1000;">
-    Auto
-  </button>
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" value="{{ '/' | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
+      {%- if site.author %}
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            {% assign email_parts = site.email | split: "@" %}
-            <li>
-              <span id="email-obfuscated" data-user="{{ email_parts[0] | escape }}"
-                data-domain="{{ email_parts[1] | escape }}"></span>
-              <noscript>
-                <span>{{ email_parts[0] }} [at] {{ email_parts[1] | replace: ".", " [dot] " }}</span>
-              </noscript>
-            </li>
-            {%- endif -%}
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
         </ul>
+      {%- endif %}
       </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+    <div class="social-links">
+      {%- include social.html -%}
     </div>
 
   </div>
 
 </footer>
-
-<script>
-  (function() {
-    var span = document.getElementById("email-obfuscated");
-    if (span) {
-      var user = span.getAttribute("data-user");
-      var domain = span.getAttribute("data-domain");
-      if (user && domain) {
-        var email = user + "@" + domain;
-        var link = document.createElement("a");
-        link.href = "mailto:" + email;
-        link.className = "u-email";
-        link.textContent = email;
-        span.appendChild(link);
-      }
-    }
-  })();
-</script>

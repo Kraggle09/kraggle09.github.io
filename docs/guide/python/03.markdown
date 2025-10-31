@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Working with datatypes
 permalink: /python/03/
 ---
@@ -24,70 +24,96 @@ There are a number of things you can do with strings.
 
 You can capitalize the first letter of a string using `.capitalize()`, like this:
 
-<pre><code class="language-python">print("hello".capitalize()) # Output: Hello</code></pre>
+```python
+print("hello".capitalize()) # Output: Hello
+```
 
 You can capitalize every letter in a string using `.upper()`, like this:
 
-<pre><code class="language-python">print("hello".upper()) # Output: HELLO</code></pre>
+```python
+print("hello".upper()) # Output: HELLO
+```
 
 You can make every letter in a string lower-case using `.lower()`, like this:
 
-<pre><code class="language-python">print("HELLO".lower()) # Output: hello</code></pre>
+```python
+print("HELLO".lower()) # Output: hello
+```
 
 You can also use these on a variable containing a string:
 
-<pre><code class="language-python">myString = "hello"
-print(myString.capitalize()) # Output: Hello</code></pre>
+```python
+myString = "hello"
+print(myString.capitalize()) # Output: Hello
+```
 
 This allows you to output strings in multiple ways:
 
-<pre><code class="language-python">myString = "HeLlO"
+```python
+myString = "HeLlO"
 print(myString.upper()) # Output: HELLO
-print(myString.lower()) # Output: hello</code></pre>
+print(myString.lower()) # Output: hello
+```
 
 ## Integer workflows
 There are several things you can do with integers, mainly math.
 
 You can add two integers together using `+`:
 
-<pre><code class="language-python">print(5 + 5) # Output: 10</code></pre>
+```python
+print(5 + 5) # Output: 10
+```
 
 You can subtract two integers using `-`:
 
-<pre><code class="language-python">print(10 - 5) # Output: 5</code></pre>
+```python
+print(10 - 5) # Output: 5
+```
 
 You can multiply two integers using `*`:
 
-<pre><code class="language-python">print(5 * 5) # Output: 25</code></pre>
+```python
+print(5 * 5) # Output: 25
+```
 
 You can divide two integers using `/`:
 
-<pre><code class="language-python">print(25 / 5) # Output: 5.0</code></pre>
+```python
+print(25 / 5) # Output: 5.0
+```
 
 You'll notice that dividing turns the integer into a float, I'll explain more about that later.
 
 You can use this symbols (operators) on variables too:
-<pre><code class="language-python">a = 5
+```python
+a = 5
 b = 10
-print(a + b) # Output: 15</code></pre>
+print(a + b) # Output: 15
+```
 
 You can also use them directly on a variable:
-<pre><code class="language-python">a = 5
+```python
+a = 5
 a += 10 # Adds the existing value (5) to the new value (10)
-print(a) # Output: 15</code></pre>
+print(a) # Output: 15
+```
 
 These operators also work on floats:
 
-<pre><code class="language-python">print(3.2 + 4.6) # Output: 7.8
+```python
+print(3.2 + 4.6) # Output: 7.8
 print(8.2 - 5.3) # Output: 2.8999999999999995
 print(1.4 * 3.2) # Output: 4.4799999999999995
-print(2.2 / 1.2) # Output: 1.8333333333333335</code></pre>
+print(2.2 / 1.2) # Output: 1.8333333333333335
+```
 
 However, you will notice that the numbers are... messy. I'll explain why that happens and how to avoid it in a future lesson.
 
 The `+` operator can also be used on strings, but instead of adding the values arithmetically, it will join them together. For example:
 
-<pre><code class="language-python">print("Hello " + "World") # Output: Hello World</code></pre>
+```python
+print("Hello " + "World") # Output: Hello World
+```
 
 You can't directly join an integer with a string, but there is a workaround which we will now cover.
 
@@ -98,31 +124,41 @@ Strings can store any text. That can be letters, numbers, special characters, et
 
 Each datatypes has a function for this. `str()` for strings, `int()` for integers, and `float()` for floats. To convert them, you use them like this:
 
-<pre><code class="language-python">myInteger = 5
+```python
+myInteger = 5
 myString = str(myInteger)
-print(myString) # Output: 5 (but it's a string instead of an integer)</code></pre>
+print(myString) # Output: 5 (but it's a string instead of an integer)
+```
 
 Like with the `print` statement, it's important to keep the right syntax.
 
 This allows you to do math with numbers that happen to be stored as strings. For example:
 
-<pre><code class="language-python">a = 5
+```python
+a = 5
 b = "10"
 c = a + int(b) # Converts the string "10" to a plain integer
-print(c) # Output: 15</code></pre>
+print(c) # Output: 15
+```
 
 Note that something like this:
 
-<pre><code class="language-python">a = "hello"
+```python
+a = "hello"
 b = int(a)
-print(b)</code></pre>
+print(b)
+```
 
 Will not work, because "hello" cannot be an integer.
 
 With this knowledge, let's go back to dividing integers. As you'll remember, when you divide two integers, the output is automatically a float. This is so if you divide something like 5 / 2, it will be able to output 2.5. However, if the output is always going to be a non-decimal number, then you can convert the output back to an int like this:
 
-<pre><code class="language-python">print(int(25 / 5)) # Output: 5</code></pre>
+```python
+print(int(25 / 5)) # Output: 5
+```
 
 Finally, you can also use convertion to join a string and an integer together:
 
-<pre><code class="language-python">print("My favorite number is: " + str(5)) # Output: My favorite number is: 5</code></pre>
+```python
+print("My favorite number is: " + str(5)) # Output: My favorite number is: 5
+```

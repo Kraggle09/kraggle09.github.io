@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Specs
 permalink: /specs/
 ---

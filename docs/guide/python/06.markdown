@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: Lists, Tuples, and Dictionaries
 permalink: /python/06/
 ---
@@ -23,52 +23,70 @@ In this lesson we will be learning 3 more datatypes: Lists, Tuples, and Dictiona
 
 Lists allow you to store multiple items within one variable. Here's an example:
 
-<pre><code class="language-python">animals = ["cat", "dog", "bird"]</code></pre>
+```python
+animals = ["cat", "dog", "bird"]
+```
 
 As you can see, we can put multiple strings within this one `animals` variable. Each item is seperated by a comment, and the list is surrounded by `[]`.
 
 You can grab the contents of a list by calling it:
-<pre><code class="language-python">print(animals) # Output: ['cat', 'dog', 'bird']</code></pre>
+```python
+print(animals) # Output: ['cat', 'dog', 'bird']
+```
 
 You can grab a specific item of a list like this:
-<pre><code class="language-python">print(animals[0]) # Output: cat</code></pre>
+```python
+print(animals[0]) # Output: cat
+```
 
 This will print the first item from this list, which in this case would be `cat`. Yes, `0` is a valid number here, because lists start at `0` instead of `1`.
 
 You can add an item to a list using `.append()`. For example:
-<pre><code class="language-python">animals.append("horse")</code></pre>
+```python
+animals.append("horse")
+```
 
 This will add the item `"horse"` to the end of our `animals` list.
 
 We can also insert an item to a specific location of our list using `.insert()`:
 
-<pre><code class="language-python">highScoreOwners = ["Jake", "Sarah"]
+```python
+highScoreOwners = ["Jake", "Sarah"]
 print(highScoreOwners) # Output: ['Jake', 'Sarah']
 highScoreOwners.insert(1, "Michael")
-print(highScoreOwners) # Output: ['Jake', 'Michael', 'Sarah']</code></pre>
+print(highScoreOwners) # Output: ['Jake', 'Michael', 'Sarah']
+```
 
 This will add the item `"Michael"` to placement (index) `1`, which pushes `"Sarah"` to index `2`.
 
 You can remove an item from a list by value using `.remove()`:
-<pre><code class="language-python">currentSubscriptionHolders = ["Michelle", "John", "Clint"]
+```python
+currentSubscriptionHolders = ["Michelle", "John", "Clint"]
 print(currentSubscriptionHolders) # Output: ['Michelle', 'John', 'Clint']
 currentSubscriptionHolders.remove("John") # Removes the first item with a value of "John"
-print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']</code></pre>
+print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']
+```
 
 Or, you can remove an item from a list by index using `pop()`:
 
-<pre><code class="language-python">currentSubscriptionHolders = ["Michelle", "John", "Clint"]
+```python
+currentSubscriptionHolders = ["Michelle", "John", "Clint"]
 print(currentSubscriptionHolders) # Output: ['Michelle', 'John', 'Clint']
 currentSubscriptionHolders.pop(1) # Removes the item at index 1
-print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']</code></pre>
+print(currentSubscriptionHolders) # Output: ['Michelle', 'Clint']
+```
 
 ## Tuples
 A tuple is like a list, but you cannot modify it after it's created. You create it like this:
-<pre><code class="language-python">planOptions = ("basic", "plus", "premiere")</code></pre>
+```python
+planOptions = ("basic", "plus", "premiere")
+```
 
 You can still grab items from it likes lists:
 
-<pre><code class="language-python">print(planOptions[1])</code></pre>
+```python
+print(planOptions[1])
+```
 
 But you can't add or remove items from the tuple within the code.
 
@@ -88,20 +106,28 @@ Now, lists and tuples are great and all, but what happens when you want to be ab
 
 Dictionaries use key-value pairs. This means each value has a key by which you can grab (call) it. Here's an example of a list:
 
-<pre><code class="language-python">favoriteAnimals = {"Janet": "cat", "Ann": "dog", "Doug": "bird"}</code></pre>
+```python
+favoriteAnimals = {"Janet": "cat", "Ann": "dog", "Doug": "bird"}
+```
 
 Calling an item from a dictionary works largely in the same way as lists and tuples, but instead of grabbing it by ID, you grab it by the key.
 
-<pre><code class="language-python">print(favoriteAnimals["Ann"]) # Output: dog</code></pre>
+```python
+print(favoriteAnimals["Ann"]) # Output: dog
+```
 
 To add an item to a dictionary, you do this:
 
-<pre><code class="language-python">favoriteAnimals["Frank"] = "horse"</code></pre>
+```python
+favoriteAnimals["Frank"] = "horse"
+```
 
 Notice how this is pretty similar in syntax to variables.
 
 You can remove an item from a dictionary by using `.pop()`, but instead of by the index, you use the key:
 
-<pre><code class="language-python">favoriteAnimals.pop("Janet")</code></pre>
+```python
+favoriteAnimals.pop("Janet")
+```
 
 > During this lesson we have only been using strings to our lists, tuples, and dictionaries (referred to collectively as Collections), but you can also put intergers, floats, booleans, and even other collections inside them.

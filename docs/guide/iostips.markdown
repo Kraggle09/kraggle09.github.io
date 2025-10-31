@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 title: iOS Tips and Tricks
 ---
 # iOS Tips and Tricks
