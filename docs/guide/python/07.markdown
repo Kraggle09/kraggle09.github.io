@@ -23,14 +23,18 @@ In this lesson we will be covering errors and how to handle, or (hopefully) avoi
 
 Here's some code:
 
-<pre><code class="language-python">print("Hello)</code></pre>
+```python
+print("Hello)
+```
 
 If you run it, you'll get a chunk of text, like this:
 
-<pre><code class="language-plaintext">File "c:\Users\redpi\Documents\Documents\Github\Coding\python-tutorial-files\07.py", line 1
+```
+File "c:\Users\redpi\Documents\Documents\Github\Coding\python-tutorial-files\07.py", line 1
     print("Hello)
           ^
-SyntaxError: unterminated string literal (detected at line 1)</code></pre>
+SyntaxError: unterminated string literal (detected at line 1)
+```
 
 Let's break this down:  
 `File "c:\Users\redpi\Documents\Documents\Github\Coding\python-tutorial-files\07.py", line 1`: This tells you what file had an error, and on which line it happened on.  
@@ -40,7 +44,9 @@ Let's break this down:
 
 When we look at that error, we can easily tell the problem. "Unterminated string literal", well that's because I forgot to close the string when printing. We can fix it like this:
 
-<pre><code class="language-python">print("Hello")</code></pre>
+```python
+print("Hello")
+```
 
 And it will run fine.
 
