@@ -110,6 +110,9 @@ Template
 </div> 
 
 ## Other
+**Kana Pro Fork**  
+I made a slight modification to [Kana Pro](https://kana.pro/), and hosted it here: [https://kraggle09.github.io/kanaquiz/](https://kraggle09.github.io/kanaquiz/). It only changes the message when you incorrectly guess something to include your guess alongside the correct answer, since that bugged me about the original.  
+
 **Random Skin Generator**  
 This is a little python script I made for fun that generates a random Minecraft skin each time you run it. None of the skins it makes are good, but theoretically it can make any single layer skin in existence.  
 [Github](https://github.com/kraggle09/random-skin-generator)  
