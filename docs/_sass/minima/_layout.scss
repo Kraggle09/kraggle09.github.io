@@ -4,8 +4,8 @@
 .site-header {
   position: relative;
   width: 100%;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  min-height: $spacing-unit * 1.725;
+  line-height: $base-line-height * $base-font-size * 1.9;
   background-color: $background-color;
   border-bottom: 1px solid $border-color-01;
 }
@@ -49,7 +49,7 @@
     }
     text-decoration: none;
     &:hover {
-      color: darken($dm-text-color, 15%);
+      color: $text-color;
     }
   }
 
@@ -417,4 +417,9 @@
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
+}
+
+.site-nav .nav-items {
+  display: flex;
+  align-items: center;
 }

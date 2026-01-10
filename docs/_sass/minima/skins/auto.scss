@@ -20,6 +20,7 @@ $lm-site-title-color:      $lm-brand-color-dark !default;
 $lm-heading-color:         #111111 !default;
 $lm-text-color:            $lm-brand-color-dark !default;
 $lm-background-color:      #fdfdfd !default;
+$lm-background-color-dropdown: #fdfdfd;
 $lm-code-background-color: #f6f8fa !default;
 
 $lm-link-base-color:       #1e69d8 !default;
@@ -130,6 +131,7 @@ $dm-site-title-color:      $dm-brand-color-light !default;
 $dm-heading-color:         #dcdcdc !default;
 $dm-text-color:            $dm-heading-color !default;
 $dm-background-color:      #1d1d1d !default;
+$dm-background-color-dropdown: #2e2e2e;
 $dm-code-background-color: #1f1f1f !default;
 
 $dm-link-base-color:       #439bff !default;
@@ -248,6 +250,7 @@ $site-title-color: $lm-site-title-color;
 $heading-color: $lm-heading-color;
 $text-color: $lm-text-color;
 $background-color: $lm-background-color;
+$background-color-dropdown: $lm-background-color-dropdown;
 $code-background-color: $lm-code-background-color;
 
 $link-base-color: $lm-link-base-color;
@@ -280,6 +283,7 @@ $table-border-color: $lm-table-border-color;
     --minima-heading-color: #{$lm-heading-color};
     --minima-text-color: #{$lm-text-color};
     --minima-background-color: #{$lm-background-color};
+    --minima-background-color-dropdown: #{$lm-background-color-dropdown};
     --minima-code-background-color: #{$lm-code-background-color};
 
     --minima-link-base-color: #{$lm-link-base-color};
@@ -311,6 +315,7 @@ $table-border-color: $lm-table-border-color;
       --minima-heading-color: #{$dm-heading-color};
       --minima-text-color: #{$dm-text-color};
       --minima-background-color: #{$dm-background-color};
+      --minima-background-color-dropdown: #{$dm-background-color-dropdown};
       --minima-code-background-color: #{$dm-code-background-color};
 
       --minima-link-base-color: #{$dm-link-base-color};
@@ -341,6 +346,7 @@ $table-border-color: $lm-table-border-color;
   $heading-color: var(--minima-heading-color);
   $text-color: var(--minima-text-color);
   $background-color: var(--minima-background-color);
+  $background-color-dropdown: var(--minima-background-color-dropdown);
   $code-background-color: var(--minima-code-background-color);
 
   $link-base-color: var(--minima-link-base-color);
@@ -372,6 +378,7 @@ $table-border-color: $lm-table-border-color;
   $heading-color: $dm-heading-color;
   $text-color: $dm-text-color;
   $background-color: $dm-background-color;
+  $background-color-dropdown: $dm-background-color-dropdown;
   $code-background-color: $dm-code-background-color;
 
   $link-base-color: $dm-link-base-color;
