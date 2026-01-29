@@ -7,7 +7,7 @@ permalink: /specs/
 ### Main PC  
 **CPU:** i7-9700  
 **GPU:** Red Devil RX 590  
-**RAM:** 24GB DDR4  
+**RAM:** 32GB DDR4  
 **Motherboard:** ASUS Prime z370-a  
 **Main storage:** Samsung 850 Evo 500GB SSD  
 **Secondary storage:** WD 2TB HDD  
