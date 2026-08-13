@@ -14,6 +14,3 @@ This website is essentially the center of me on the internet. Kinda like linktre
 I've also written a few guides, which you can check out if you wish. My goal is for that page to have many guides that I write over the years.
 
 If you find any issues with this site, or ideas for improvements, feel free to open an issue [here](https://github.com/Kraggle09/kraggle09.github.io/issues).
-
-
-Notice for osu! admins: My account is currently stolen. I'm adding this here to confirm that the email I sent is actually from me.
