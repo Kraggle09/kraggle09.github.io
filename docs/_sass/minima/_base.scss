@@ -330,4 +330,8 @@ table {
   overflow: hidden;
 }
 
-.noselect { user-select: none; -webkit-user-select: none; /* Safari */ -ms-user-select: none; /* Old IE */ }
+.noselect {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* Old IE */
+}
