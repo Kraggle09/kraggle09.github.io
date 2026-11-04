@@ -5,13 +5,13 @@ permalink: /about/
 ---
 
 **Hey, I'm Kraggle09!**  
-I do misc stuff on the internet, like modding Minecraft, writing guides, and probably other things I can't think of. You can find me on websites under the name 'Kraggle09', or 'Redpixel09' (slowly working on moving things over to the Kraggle09 identity).
+I do a bit of stuff on the internet, and hopefully will do more in the future. You can find me on websites under the name 'Kraggle09', or sometimes 'Redpixel09'.
 
 ### PC Specs
 #### Main PC (Used for gaming, and more intensive workflows)  
 **OS:** Windows 11 Pro  
 **CPU:** i7-9700  
-**GPU:** Red Devil RX 590  
+**GPU:** Nvidia GeForce GTX 1080 (Technically not mine, I own a Red Devil RX 590)  
 **RAM:** 32GB DDR4  
 **Motherboard:** ASUS Prime z370-a  
 **Hard Drives:**  
@@ -22,8 +22,8 @@ I do misc stuff on the internet, like modding Minecraft, writing guides, and pro
 
 #### Laptop (Used most the time due to convenience)  
 **OS:** Windows 11 Pro  
-**Model:** HP Elitebook 840 G8  
-**CPU:** i5-1145G7  
+**Model:** HP Elitebook 640 G9  
+**CPU:** i5-1245U  
 **GPU:** Integrated Iris Xe Graphics  
-**RAM:** 24GB  
+**RAM:** 32GB  
 **Storage:** 512GB M.2  
