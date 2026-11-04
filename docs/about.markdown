@@ -7,6 +7,9 @@ permalink: /about/
 **Hey, I'm Kraggle09!**  
 I do a bit of stuff on the internet, and hopefully will do more in the future. You can find me on websites under the name 'Kraggle09', or sometimes 'Redpixel09'.
 
+### What I'm listening to right now
+{% include listenbrainz.html %}
+
 ### PC Specs
 #### Main PC (Used for gaming, and more intensive workflows)  
 **OS:** Windows 11 Pro  
