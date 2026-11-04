@@ -13,4 +13,4 @@ This website is essentially the base node for me on the internet. Kinda like lin
 
 <br>
 
-*Psst. This website is open source, you can view the code [here](https://github.com/Kraggle09/kraggle09.github.io/issues).*
+*Psst. This website is open source, you can view the code [here](https://github.com/Kraggle09/kraggle09.github.io/).*
