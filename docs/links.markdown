@@ -6,7 +6,7 @@ permalink: /links/
 
 These are all the accounts I own online that are at least semi-relevant to Kraggle09. If you see an account using my name that isn't listed here, it may or may not be mine.
 
-Minecraft: Kraggle09 (Java and Bedrock)
+Minecraft: Kraggle09 (Java and Bedrock)  
 osu!: [Redpixel09](https://osu.ppy.sh/users/38890325)  
 Github: [Kraggle09](https://github.com/Kraggle09)  
 Planet Minecraft: [Kraggle09](https://www.planetminecraft.com/member/kraggle09/)  
