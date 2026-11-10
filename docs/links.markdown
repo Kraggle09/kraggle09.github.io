@@ -16,4 +16,4 @@ Steam: [Kraggle09](https://steamcommunity.com/id/kraggle09/)
 MusicBrainz: [Redpixel09](https://musicbrainz.org/user/Redpixel09)  
 Hytale: Kraggle09  
 itch.io: [Kraggle09](https://kraggle09.itch.io)  
-RhythmVerse: Kraggle09  
+RhythmVerse: [Kraggle09](https://rhythmverse.co/songfiles/author/kraggle09)  
