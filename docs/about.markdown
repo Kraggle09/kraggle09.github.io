@@ -14,7 +14,7 @@ I do a bit of stuff on the internet, and hopefully will do more in the future. Y
 #### Main PC (Used for gaming, and more intensive workflows)  
 **OS:** Windows 11 Pro  
 **CPU:** i7-9700  
-**GPU:** Nvidia GeForce GTX 1080 (Technically not mine, I own a Red Devil RX 590)  
+**GPU:** AMD RX 590  
 **RAM:** 32GB DDR4  
 **Motherboard:** ASUS Prime z370-a  
 **Hard Drives:**  
